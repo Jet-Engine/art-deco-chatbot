@@ -1,0 +1,17 @@
+#api_keys:
+openai_key: "x"
+groq_key:   "y"
+
+#models:
+main_model: "llama3"
+embed_model: "nomic-embed-text"
+
+#chromadb:
+chroma_host: "localhost"
+chroma_port: 8000
+chroma_collection_name: "wiki-art-deco-embeddings"
+
+#paths:
+rag_files_path: "rag_files/"
+question_file_path: "evaluation/questions.csv"
+evaluation_path: "evaluation/"

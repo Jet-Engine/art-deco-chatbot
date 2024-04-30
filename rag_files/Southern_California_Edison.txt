@@ -1,0 +1,65 @@
+Southern California Edison
+
+
+
+Southern California Edison (SCE), the largest subsidiary of Edison International, is the primary electric utility company for much of Southern California. It provides 15 million people with electricity across a service territory of approximately 50,000 square miles.[a]
+
+SCE still owns all of its electrical transmission facilities and equipment, but the deregulation of California's electricity market in the late 1990s forced the company to sell many of its power plants, though some were probably sold by choice. In California, SCE retained only its hydroelectric plants, totaling about 1,200 MW, and its 75% share of the 2,150-MW San Onofre Nuclear Generating Station, which has been shut down since January 2012; in June 2013 the company announced its intention to permanently close and decommission the nuclear plant.[3] The utility lost all of its natural gas-fired plants, which provided most of its electrical generation. The large, aging plants were bought by out-of-state companies such as Mirant and Reliant Energy, which allegedly used them to manipulate the California energy market.[4]
+
+Southern California Edison's power grid is linked to PG&E's by the Path 26 wires that generally follow Interstate 5 over Tejon Pass. The interconnection takes place at a large substation at Buttonwillow. PG&E's and WAPA's Path 15 and Path 66, respectively, from Buttonwillow north eventually connect to BPA's grid in the Pacific Northwest. There are several other interconnections with local and out-of-state utilities, such as Path 46.
+
+In addition, SCE operates a regulated gas and water utility. SCE is the sole commercial provider of natural gas and fresh water service to Santa Catalina Island, including the city of Avalon, California. SCE operates the utilities under the names of Catalina Island Gas Company and Catalina Island Water Company.
+
+History
+The origins of the company lie with the grand scheme of business magnate Henry E. Huntington and hydraulic engineer John S. Eastwood, developed around 1908, for a vast complex of reservoirs to be constructed in the Sierra Nevada Mountains of central California.  Huntington founded Pacific Light and Power, one of the roughly two dozen companies he controlled at the time,[6] to execute what would eventually become one of the largest hydropower systems in the United States, the Big Creek Hydroelectric Project.  Pacific Light and Power was one of the predecessor companies to SCE, along with Edison Electric, Mt. Whitney Power & Electric Co., California Electric Power Co., Southern California Power Co.,[7] and others.[8]
+
+Settlement for blackout
+Southern California Edison agreed to pay a $650,000 settlement for the 2011 blackout with FERC and NERC.[9][10]
+
+Shooting
+On December 16, 2011, a shooting occurred when an employee of Southern California Edison opened fire at an office building in Irwindale. The employee killed two co-workers and seriously wounded two others before committing suicide.[11]
+
+COVID-19 pandemic
+In March 2020, during the COVID-19 pandemic, 8,000 of the 13,000 employees were shifted to remote work. The US Department of Homeland Security has named utilities like SCE part of the 16 sectors designated “critical infrastructure sectors. The group of remote workers was set up so the company can operate if it faces workforce disruptions or shortages if employees become stricken or quarantined because of COVID-19.
+
+The company also ceased power disconnections for non-payment.[12]
+
+Renewable energy
+Southern California Edison allows its customer to obtain their electricity entirely from renewable sources by subscribing to a "green rate".[13]
+
+In 2006, Southern California Edison planned to secure 1,500 megawatts or more of power generated from new projects to be built in the Tehachapi Pass Wind Farm area. The contract, which more than doubles SCE's wind energy portfolio, envisions more than 50 square miles (130 km2) of wind parks in the Tehachapi region, which is triple the size of any existing U.S. wind farm.[14]
+
+In March 2008, Southern California Edison announced a $875 million project to build a network of 250 megawatts of photovoltaic solar power generation, making it the biggest solar cell project in the nation. The photovoltaic cells will cover 65,000,000 square feet (6,000,000 m2) of rooftops in southern California and will generate enough power to serve 162,000 homes.[15]
+
+In 2009, Southern California Edison entered into a contract with Solar Millennium to purchase solar thermal power up to 726 MW.[16] Southern California Edison also entered into a contract with Stirling Energy Systems to buy electricity from a 500 megawatt, 4,600 acre (19 km2), solar power plant which was due to open in 2009.[17][18] The purchase was canceled in late 2010, as changes in technology reduced the cost of photovoltaic-based solar power to below that of solar Stirling generated power.[19] This would have been the first commercial application of the dish stirling system. A different technology from the more familiar solar panel, the dish concentrates solar energy by the use of reflective surfaces and by the use of the Stirling heat engine to convert the heat into electricity.
+
+In 2014, Southern California Edison installed the Tehachapi Energy Storage Project, which is composed of more than 600,000 lithium-ion battery cells at Monolith Substation in Tehachapi, California in order to test storing power generated from an area that currently has 5,000 wind turbines.[20]
+
+In 2014 SCE had a renewables mix of 23%.[21] By 2016, 28.2% of SCE's power sources were renewable.[22]
+
+Natural gas and energy storage
+In 2017, the company opened two new hybrid electric gas turbine (EGT) units called peaker plants, that combine gas turbines and storage batteries at the same site. Each plant delivers around 50-megawatts; the batteries can provide 10-megawatts and four megawatt-hours of power. Both the turbines and the batteries are designed and manufactured by General Electric’s Power Division.[23]
+
+The plant runs the battery first in a series of short bursts, saving gas usage for longer power demand. The combination of a 30-minute duration battery improves the environmental impact of the gas turbine.  The SCE setup (the first of its kind) cut greenhouse gas emissions by 60%, reduced annual water usage by 2 million gallons and lowered the number of gas starts by 50%.[24]
+
+Electric vehicles
+Southern California Edison has a number of resources and a rate designed specifically for electric vehicle users.[25]
+
+As of July 2018, Southern California Edison plans to add thousands of new charging stations for passenger electric vehicles (EV). This addition is a component of the company's "Charge Ready" program, a pilot program with the aim of increasing the availability of charging ports for EVs. Since 2016, Southern California Edison has installed 1,000 charging stations throughout their Southern and Central California service area.[26]
+
+The company also runs a rebate program for electric vehicle purchases. Southern California Edison gives people in its service area who purchase a new or used, or lease, an electric vehicle a $450 rebate. The program will run until 2020.[27]
+
+Energy research and policy
+Southern California Edison has a long history of research in the energy arena. Often this includes working with other companies and government entities. One example is the SOLARII feasibility generator, which was a solar-powered energy plant that could produce electricity 24 hours a day. This was done by heating molten salts that would hold the heat during the day and would be used to generate power at night.[citation needed]
+
+Dr. John Jurewitz served as Director of Regulatory Policy for Southern California Edison for 15 years until his retirement in July 2007. His major areas of research are in oil, gas, and electricity policy and greenhouse gas regulation. He has testified and participated in government-sponsored proceedings addressing electric industry restructuring and energy policy at the state, federal, and international levels.[28][29][30]
+
+In November, 2014, SCE announced a partnership with Ice Energy to provide more efficient energy storage by freezing water at night when electricity is cheaper.[31] (Ice Energy filed for Chapter 7 bankruptcy in December 2019.)[32]
+
+Labor practice controversy
+In April 2015, Southern California Edison laid off about 400 IT employees, with an additional 100 IT workers leaving voluntarily.[33] Meanwhile, the utility company hired  immigrants from India through Infosys, based in Bangalore, and Tata Consultancy Services in Mumbai, which are among the largest users of H-1B visas.[34][35] About 70% of the work to be done by Tata and Infosys will be completed offshore, according to SCE. The company claimed it had to lay off US-based employees to stay competitive. The layoffs were questioned by members of the United States Senate.[36] SCE was subsequently investigated by the US Department of Labor for potential H1-B visa abuse.[37] In October, Department of Labor concluded Infosys did not abuse the H1-B program in the dealings with SCE, while Tata's case remained open.[38]
+
+See also
+Notes
+References
+External links

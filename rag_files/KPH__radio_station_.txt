@@ -1,0 +1,39 @@
+KPH (radio station)
+
+KPH is a coast radio station on the Pacific Coast of the United States. For most of the 20th century, it provided ship to shore communications including telegrams (using Morse code) and marine telex service (using radioteletype). The station discontinued commercial operation in 1998, but is operated occasionally as a historic service – its signal can be received over a large portion of the western hemisphere.
+
+Ship to shore telephone calls were not handled by KPH but by other stations such as the nearby AT&T high seas station KMI.
+
+History
+The station dates back to the dawn of the radio era in the early years of the twentieth century when it began operations at the Palace Hotel in San Francisco, California, using the callsign "PH". Forced out by the 1906 San Francisco earthquake and fire, the station moved from one temporary site to another until it was acquired by the Radio Corporation of America (RCA) and relocated to Marin County. Subsequently, it was owned by MCI Communications and finally Globe Wireless, who still own the KPH operating license.[1][2]
+
+Physical plant
+The receiving station and control point now occupy a classic white 1920s' Art Deco building on Sir Francis Drake Boulevard in the Point Reyes National Seashore whereas the similarly styled[3] transmitter buildings are about 20 miles south at 37°54′52.32″N 122°43′30.26″W﻿ / ﻿37.9145333°N 122.7250722°W﻿ / 37.9145333; -122.7250722﻿ (transmitter building near Bolinas)[4], near the town of Bolinas. The reason for siting the transmitters so far away from the receivers is that their powerful outgoing signals would make it difficult to hear weak incoming signals from faraway ships on the same frequency (or channel). Operators at the receiving site remotely control and key the transmitters by means of landlines connecting the two sites.
+
+Radio operations
+KPH has always been mainly a Morse code station. International Morse code is used on the air, but American Morse code was once used on the telegraph lines ("land lines"), so operators at the station had to learn both varieties until the landline telegraph was replaced by the teleprinter.
+
+In the beginning, all traffic was sent by Morse code ("CW") using hand-operated Morse keys. Devices were introduced to allow messages to be typed or "punched" onto a paper tape so that they could be sent automatically at any time. Station IDs and other repeated announcements pre-recorded by this method are called "wheels".
+
+In the 1930s, landline teleprinter operation was adapted for radio use (radioteletype or "RTTY") which allowed for faster, more efficient messaging. This did not replace Morse code entirely, because many vessels had no teleprinter equipment and because Morse was the most reliable transmission mode available: When faced with bad atmospheric conditions and weak signals, dits and dahs are easier to pick up than teleprinter or the human voice, and all the coding and decoding are done in the brain.
+
+Over the years radioteletype was improved and computerized, giving rise to new digital transmission modes such as Clover and PACTOR. Satellite communications became a technically and commercially viable alternative to terrestrial radio links. Ship radio equipment became more advanced and automated, requiring fewer radio officers – or none. By the 1990s few ship stations were equipped for Morse code or had any use for it, so coast stations re-allocated their Morse frequencies to other uses. Some stations disappeared from the airwaves altogether, as did KPH after being acquired by Globe Wireless in 1997.[2]
+Its Morse code traffic was then diverted to other stations such as KFS in Half Moon Bay, California, another Globe Wireless station.
+
+KFS continued to handle Morse code traffic until 13 July 1999 Universal time (actually July 12 in the Pacific time zone) when it made its last official Morse transmission, ceremonially marking the end of commercial Morse code use in America (as distinct from amateur radio Morse code use, which continues). This anniversary is commemorated on the air every July as the "Night of Nights" by KPH and other coast radio stations, along with radio amateurs who participate on their own frequencies.[5][6]
+
+Revenue service and preservation
+KPH would broadcast regular bulletins of news, weather and other general information to the shipping community, then relay business and personal messages to and from individual ships.  Station operators also monitored the international distress frequencies for calls from ships in trouble.
+
+With the decline of Morse code the station was retired, but volunteers have preserved it in operating condition so that it can still be heard on the air on weekends and special occasions, sometimes using the alternative callsign KSM and the amateur radio club callsign K6KPH. KPH is located within the Point Reyes National Seashore in Marin County, California, north of San Francisco Bay.
+
+Survival and preservation
+KPH is now a part of the Point Reyes National Seashore and is maintained and operated by former KPH employees and volunteers of the Maritime Radio Historical Society. There are several reasons that the station was able to survive decommissioning and make a comeback. First, the equipment was old and not suitable for resale, so much of it was left where it was, with connections to power, antennas and land lines still intact. Second, the real estate taken up by buildings and antenna farms, while desirable, was also unsuitable for resale (especially to the extent that it lay within the Point Reyes National Seashore), meaning that the properties were not bought and redeveloped the way some other stations were. The KPH license and the frequencies assigned to it are made available to the MRHS by the license holder, Globe Wireless. In addition, the Federal Communications Commission (FCC) has granted the MRHS a new coast station license with the callsign KSM, as well as the amateur radio club callsign K6KPH for communicating with radio hams on amateur frequencies.  K6KPH is unusually strong and well-equipped for an amateur station, with its professional grade transmitters, antennas and operators. Operating in amateur radio mode means following a different set of rules (using different frequencies and lower transmitter power levels), but amateurs are not limited in their choice of equipment as long as they stick to these rules.
+
+Special events
+Ship stations in regular contact with KPH and KSM
+See also
+References
+
+
+External links

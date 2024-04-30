@@ -1,0 +1,24 @@
+David Taylor Model Basin
+
+
+
+The David Taylor Model Basin (DTMB) is one of the largest ship model basins—test facilities for the development of ship design—in the world. DTMB is a field activity of the Carderock Division of the Naval Surface Warfare Center.
+
+History
+In 1896, David Watson Taylor designed and supervised construction of the Washington Navy Yard's Experimental Model Basin which was at that time the best facility in the world.  That facility was a significant design testing capability before, during, and after World War I.  Inadequacies in that facility led the navy to look for a new model capability.[2]
+
+The new navy modeling facility—named for David Taylor—was built in 1939 in today's community of Carderock just west of Bethesda, Maryland in Montgomery County. The Carderock facility contains multiple test basins (towing tanks for models) designed for a variety of testing capabilities.  DTMB has strongly influenced naval architecture for 70 years.[citation needed]
+
+Technical capabilities
+Three adjoining sections comprise the Shallow Water Basin: deep water, shallow water, and a J-shaped turning basin used for steering maneuvers.  Its carriage can provide speeds up to 18 knots.
+
+The Deep Water Basin wavemaker located along the side, and a wave absorbing beach at the other. The wavemaker consists of 216 electro-mechanical panels called wave boards.[3] This capability allows modeling of regular or irregular sea states. Located behind a movable section of the beach is a fitting out dry dock. Its carriage can provide speeds up to 20 knots.
+
+The High-Speed Basin comprises two adjoining sections: a deep water section and a shallow water section. Wavemaking capability exists in this basin, and there are three large underwater viewing windows at different elevations which are set into the wall about mid-length. The high-speed carriages can provide complex motions for the model at speeds up to 50 knots.
+
+Computing
+The David Taylor Model Basin was an early adopter of computers, and an active site for computer technology.  Represented by Betty Holberton, it was one of three government agencies present at the 1959 meeting where the computer language COBOL was created.[4]
+
+References
+Further reading
+External links
