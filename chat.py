@@ -1,3 +1,4 @@
+import json
 import os
 from utilities import get_config, read_questions
 import openai_client as openai_cli
@@ -6,7 +7,7 @@ from data_saving import save_answers_json, save_answers_csv, save_answers_html, 
 import ollama_client
 
 
-def generate_answers(questions, clients, collection_name, main_model, embed_model):
+def generate_answers(questions, clients, config):
     answers_data = []
     total_questions = len(questions)
     for idx, question in enumerate(questions, 1):
@@ -16,7 +17,7 @@ def generate_answers(questions, clients, collection_name, main_model, embed_mode
             print(f"Querying {model_name}...")
             if 'ollama' in model_name:
                 # Assuming 'ollama_rag' can handle the client passing
-                answer = ollama_client.rag(question, main_model, embed_model, collection_name)
+                answer = ollama_client.rag(question, config)
             else:
                 answer = client(question)
             question_answers['answers'].append({'model': model_name, 'answer': answer})
@@ -27,18 +28,21 @@ def generate_answers(questions, clients, collection_name, main_model, embed_mode
 
 def main():
     config = get_config()
-    file_path = 'questions.csv'
+    file_path = config['questions_file_path']
     questions = read_questions(file_path)
     clients = {
         'ollama_rag': lambda q: ollama_client.rag(q, config),
         'gpt-4': lambda q: openai_cli.ask_gpt4(openai_cli.create_client(config['openai_key']), q),
-        'llama3-8b': lambda q: groq_cli.llama3_8b(groq_cli.create_client(config['groq_key']), q),
-        'llama3-70b': lambda q: groq_cli.llama3_70b(groq_cli.create_client(config['groq_key']), q),
+        'llama3-8b': lambda q: groq_cli.ask_llama3_8b(groq_cli.create_client(config['groq_key']), q),
+        'llama3-70b': lambda q: groq_cli.ask_llama3_70b(groq_cli.create_client(config['groq_key']), q),
     }
-    answers_data = generate_answers(questions, clients, config['chroma_collection_name'])
+    answers_data = generate_answers(questions, clients, config)
     save_answers_json(answers_data, os.path.join(config['evaluation_path'], 'answers.json'))
     save_answers_csv(answers_data, os.path.join(config['evaluation_path'], 'answers.csv'))
     save_answers_html(answers_data, os.path.join(config['evaluation_path'], 'answers.html'))
+    # f = open("evaluation/answers.json", "r")
+    # answers_data = json.load(f)
+    # f.close()
     save_answers_markdown(answers_data, os.path.join(config['evaluation_path'], 'answers.md'))
 
 

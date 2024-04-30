@@ -13,5 +13,5 @@ chroma_collection_name: "wiki-art-deco-embeddings"
 
 #paths:
 rag_files_path: "rag_files/"
-question_file_path: "evaluation/questions.csv"
+questions_file_path: "evaluation/questions.csv"
 evaluation_path: "evaluation/"
