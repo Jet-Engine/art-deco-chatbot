@@ -42,8 +42,8 @@ def main():
     save_answers_html(answers_data, os.path.join(config['evaluation_path'], 'answers.html'))
     # f = open("evaluation/answers.json", "r")
     # answers_data = json.load(f)
-    # f.close()
-    save_answers_markdown(answers_data, os.path.join(config['evaluation_path'], 'answers.md'))
+    # save_answers_markdown(answers_data, os.path.join(config['evaluation_path'], 'answers.md'))
+    # save_answers_html(answers_data, os.path.join(config['evaluation_path'], 'answers.html'))
 
 
 if __name__ == "__main__":

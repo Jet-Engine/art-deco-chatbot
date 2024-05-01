@@ -23,28 +23,38 @@ def save_answers_csv(json_data, output_path):
 
 
 def save_answers_html(json_data, output_path):
-    html_content = '<table border="1">\n<tr><th>Question</th>'
+    # Define styles for the table, rows, and cells
+    table_style = 'border="1" style="border-collapse: collapse;"'
+    th_style = 'style="padding: 8px; vertical-align: top;"'
+    td_style = 'style="padding: 8px; vertical-align: top;"'
+
+    # Start the table and add a header row with the title 'Questions' for the question column
+    html_content = f'<table {table_style}>\n<tr><th {th_style}>Questions</th>'
     if json_data:
-        # Add a header for each model in the first entry's answers
-        html_content += ''.join(f'<th>{answer["model"]}</th>' for answer in json_data[0]['answers'])
+        # Add a header for each model in the first entry's answers with styles
+        html_content += ''.join(f'<th {th_style}>{answer["model"]}</th>' for answer in json_data[0]['answers'])
     html_content += '</tr>\n'
 
     for item in json_data:
-        row = '<tr><td>' + item['question'] + '</td>'
+        # Construct a row for each question with answers from each model
+        row = f'<tr><td {td_style}>' + item['question'] + '</td>'
         row += ''.join(
-            '<td>' + format_html(answer['answer']) + '</td>'
+            f'<td {td_style}>' + format_html(answer['answer']) + '</td>'
             for answer in item['answers'])
         row += '</tr>\n'
         html_content += row
     html_content += '</table>'
 
+    # Write the HTML content to the specified file
     with open(output_path, 'w') as file:
         file.write(html_content)
 
 
+
+
 def format_html(text):
-    "A simple function to format text with HTML tags based on markdown syntax."
-    # Apply basic markdown to HTML conversions
+    "A more comprehensive function to format text with HTML tags based on markdown syntax including lists."
+    # Define replacements for simple markdown syntax
     replacements = {
         '**': '<b>',
         '__': '<b>',
@@ -58,11 +68,51 @@ def format_html(text):
         '## ': '<h2>',
         '### ': '<h3>',
         '#### ': '<h4>',
+        '##### ': '<h5>',
+        '###### ': '<h6>',
     }
 
+    # Apply replacements
     for md, html in replacements.items():
         text = text.replace(md, html)
-    return text
+
+    # Handle unordered lists
+    lines = text.split('<br>')
+    in_list = False
+    for i, line in enumerate(lines):
+        if line.startswith('* ') or line.startswith('- ') or line.startswith('+ '):
+            if not in_list:
+                lines[i] = '<ul><li>' + line[2:] + '</li>'
+                in_list = True
+            else:
+                lines[i] = '<li>' + line[2:] + '</li>'
+        else:
+            if in_list:
+                lines[i-1] = lines[i-1] + '</ul>'
+                in_list = False
+
+    if in_list:
+        lines[-1] += '</ul>'
+
+    # Handle ordered lists
+    in_list = False
+    for i, line in enumerate(lines):
+        if line.lstrip().startswith(tuple(f'{num}.' for num in range(1, 10))):
+            if not in_list:
+                lines[i] = '<ol><li>' + line.split('. ', 1)[1] + '</li>'
+                in_list = True
+            else:
+                lines[i] = '<li>' + line.split('. ', 1)[1] + '</li>'
+        else:
+            if in_list:
+                lines[i-1] = lines[i-1] + '</ol>'
+                in_list = False
+
+    if in_list:
+        lines[-1] += '</ol>'
+
+    return '<br>'.join(lines)
+
 
 
 def save_answers_markdown(json_data, output_path):
@@ -78,26 +128,14 @@ def save_answers_markdown(json_data, output_path):
                 row = "| " + escape_markdown(item.get('question', '')) + " |"
                 answers = item.get('answers', [])
                 row += " | ".join(
-                    [markdown_cell(answer.get('answer', '')) for answer in answers])
+                    [escape_markdown(answer.get('answer', '')) for answer in answers])
                 row += " |\n"
                 file.write(row)
 
+
 def escape_markdown(text):
     """Escapes markdown special characters within text."""
-    # Characters to be escaped in markdown
-    escape_chars = "\\`*_{}[]()>#+-.!|"
-    # Escaping markdown special characters
-    for char in escape_chars:
-        text = text.replace(char, '\\' + char)
-    return text
-
-def markdown_cell(text):
-    """Prepares text to be displayed in a markdown table cell."""
-    # Replaces newlines with <br> to maintain markdown table format
+    text = text.replace('|', '\|')
     text = text.replace('\n', '<br>')
-    # Escape markdown syntax to prevent breaking the table
-    return escape_markdown(text)
-
-
-
+    return text
 

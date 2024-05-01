@@ -1,5 +1,6 @@
 import ollama, sys, chromadb
 
+
 def rag(query, config):
     chroma = chromadb.HttpClient(host=config['chroma_host'], port=config['chroma_port'])
     collection = chroma.get_or_create_collection(config['chroma_collection_name'])
