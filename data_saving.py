@@ -50,8 +50,6 @@ def save_answers_html(json_data, output_path):
         file.write(html_content)
 
 
-
-
 def format_html(text):
     "A more comprehensive function to format text with HTML tags based on markdown syntax including lists."
     # Define replacements for simple markdown syntax
@@ -88,7 +86,7 @@ def format_html(text):
                 lines[i] = '<li>' + line[2:] + '</li>'
         else:
             if in_list:
-                lines[i-1] = lines[i-1] + '</ul>'
+                lines[i - 1] = lines[i - 1] + '</ul>'
                 in_list = False
 
     if in_list:
@@ -105,14 +103,13 @@ def format_html(text):
                 lines[i] = '<li>' + line.split('. ', 1)[1] + '</li>'
         else:
             if in_list:
-                lines[i-1] = lines[i-1] + '</ol>'
+                lines[i - 1] = lines[i - 1] + '</ol>'
                 in_list = False
 
     if in_list:
         lines[-1] += '</ol>'
 
     return '<br>'.join(lines)
-
 
 
 def save_answers_markdown(json_data, output_path):
@@ -138,4 +135,3 @@ def escape_markdown(text):
     text = text.replace('|', '\|')
     text = text.replace('\n', '<br>')
     return text
-
