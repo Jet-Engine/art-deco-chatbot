@@ -1,6 +1,8 @@
 import time
 
-import ollama, sys, chromadb
+import chromadb
+from litellm import completion
+from litellm import embedding
 
 
 def create_client(config):
@@ -21,24 +23,27 @@ def rag(client, query):
     embed_model = client['embed_model']
 
     start_time = time.time()
-    query_embed = ollama.embeddings(embed_model, prompt=query)['embedding']
+
+    query_embed = embedding(model="ollama/" + embed_model, input=query)['data'][0]['embedding']
 
     rag_start_time = time.time()
     relevant_docs = collection.query(query_embeddings=[query_embed], n_results=5)["documents"][0]
+    docs = "\n\n".join(relevant_docs)
     rag_end_time = time.time()
 
-    docs = "\n\n".join(relevant_docs)
     model_query = f"{query} - Answer that question using the following text as a resource: {docs}"
-    stream = ollama.generate(main_model, prompt=model_query, stream=True)
+    response = completion(
+        model="ollama/" + main_model,
+        messages=[{"role": "user", "content": model_query}],
+        api_base="http://localhost:11434"
+    ).choices[0].message.content
+
     end_time = time.time()
 
     rag_duration = rag_end_time - rag_start_time
     total_duration = end_time - start_time
     llm_duration = total_duration - rag_duration
 
-    response = []
-    for chunk in stream:
-        if chunk["response"]:
-            response.append(chunk['response'])
-    response = ''.join([str(x) for x in response])
     return {"response": response, "llm_duration": llm_duration, "rag_duration": rag_duration}
+
+

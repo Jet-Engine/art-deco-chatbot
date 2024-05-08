@@ -13,41 +13,67 @@ def save_answers_csv(json_data, output_path):
         header = ['Question']
         # Add a column for each model in the first entry's answers
         if json_data:
-            header.extend([answer['model'] for answer in json_data[0]['answers']])
+            for answer in json_data[0]['answers']:
+                header.append(answer['model'])
+                if answer['llm_duration'] != -1:
+                    header.append(answer['model'] + ' LLM Duration')
+                if answer['rag_duration'] != -1:
+                    header.append(answer['model'] + ' RAG Duration')
         writer.writerow(header)
 
         for item in json_data:
             row = [item['question']]
-            row.extend([answer['answer'] for answer in item['answers']])
+            for answer in item['answers']:
+                row.append(answer['answer'])
+                if answer['llm_duration'] != -1:
+                    row.append(answer['llm_duration'])
+                if answer['rag_duration'] != -1:
+                    row.append(answer['rag_duration'])
             writer.writerow(row)
 
 
 def save_answers_html(json_data, output_path):
-    # Define styles for the table, rows, and cells
-    table_style = 'border="1" style="border-collapse: collapse;"'
-    th_style = 'style="padding: 8px; vertical-align: top;"'
-    td_style = 'style="padding: 8px; vertical-align: top;"'
+    if json_data:
+        num_columns = 1 + len(json_data[0]['answers'])  # Start with one column for questions
+        for answer in json_data[0]['answers']:
+            if answer['llm_duration'] != -1:
+                num_columns += 1
+            if answer['rag_duration'] != -1:
+                num_columns += 1
 
-    # Start the table and add a header row with the title 'Questions' for the question column
+    # Calculate the percentage width for each column
+    col_width = 100 / num_columns
+
+    table_style = 'width: 100%; border="1" style="border-collapse: collapse;"'
+    th_style = f'style="padding: 8px; vertical-align: top; width: {col_width}%;"'
+    td_style = f'style="padding: 8px; vertical-align: top; width: {col_width}%;"'
+
     html_content = f'<table {table_style}>\n<tr><th {th_style}>Questions</th>'
     if json_data:
-        # Add a header for each model in the first entry's answers with styles
-        html_content += ''.join(f'<th {th_style}>{answer["model"]}</th>' for answer in json_data[0]['answers'])
+        for answer in json_data[0]['answers']:
+            html_content += f'<th {th_style}>{answer["model"]}</th>'
+            if answer['llm_duration'] != -1:
+                html_content += f'<th {th_style}>{answer["model"]} LLM Duration</th>'
+            if answer['rag_duration'] != -1:
+                html_content += f'<th {th_style}>{answer["model"]} RAG Duration</th>'
     html_content += '</tr>\n'
 
     for item in json_data:
-        # Construct a row for each question with answers from each model
-        row = f'<tr><td {td_style}>' + item['question'] + '</td>'
-        row += ''.join(
-            f'<td {td_style}>' + format_html(answer['answer']) + '</td>'
-            for answer in item['answers'])
+        row = f'<tr><td {td_style}>{item["question"]}</td>'
+        for answer in item['answers']:
+            row += f'<td {td_style}>{format_html(answer["answer"])}</td>'
+            if answer['llm_duration'] != -1:
+                row += f'<td {td_style}>{answer["llm_duration"]}</td>'
+            if answer['rag_duration'] != -1:
+                row += f'<td {td_style}>{answer["rag_duration"]}</td>'
         row += '</tr>\n'
         html_content += row
     html_content += '</table>'
 
-    # Write the HTML content to the specified file
     with open(output_path, 'w') as file:
         file.write(html_content)
+
+
 
 
 def format_html(text):
@@ -115,19 +141,26 @@ def format_html(text):
 def save_answers_markdown(json_data, output_path):
     with open(output_path, 'w') as file:
         if json_data:
-            # Create the header for the table
-            header = "| Question | " + " | ".join([answer['model'] for answer in json_data[0]['answers']]) + " |"
-            separator = "| --- " * (len(json_data[0]['answers']) + 1) + "|"
+            header = "| Question | "
+            for answer in json_data[0]['answers']:
+                header += f"{answer['model']} | "
+                if answer['llm_duration'] != -1:
+                    header += f"{answer['model']} LLM Duration | "
+                if answer['rag_duration'] != -1:
+                    header += f"{answer['model']} RAG Duration | "
+            separator = "| --- " * (header.count('|')) + "|"
             file.write(header + "\n" + separator + "\n")
 
             for item in json_data:
-                # Prepare each cell to ensure it doesn't break the table format
-                row = "| " + escape_markdown(item.get('question', '')) + " |"
-                answers = item.get('answers', [])
-                row += " | ".join(
-                    [escape_markdown(answer.get('answer', '')) for answer in answers])
-                row += " |\n"
-                file.write(row)
+                row = "| " + escape_markdown(item['question']) + " |"
+                for answer in item['answers']:
+                    row += escape_markdown(answer['answer']) + " |"
+                    if answer['llm_duration'] != -1:
+                        row += str(answer['llm_duration']) + " |"
+                    if answer['rag_duration'] != -1:
+                        row += str(answer['rag_duration']) + " |"
+                file.write(row + "\n")
+
 
 
 def escape_markdown(text):

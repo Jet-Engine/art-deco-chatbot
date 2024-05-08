@@ -7,7 +7,7 @@ import ollama_rag
 from litellm import completion
 
 
-def generate_answers(questions, clients, config):
+def generate_answers(questions, clients):
     answers_data = []
     total_questions = len(questions)
     for idx, question in enumerate(questions, 1):
@@ -15,14 +15,18 @@ def generate_answers(questions, clients, config):
         question_answers = {'question': question, 'answers': []}
         for model_name, client in clients.items():
             print(f"Querying {model_name}...")
-            answer = client(question)['response']
-            llm_duration = client(question)['llm_duration']
-            rag_duration = client(question)['rag_duration']
-            question_answers['answers'].append({'model': model_name, 'answer': answer, 'llm_duration': llm_duration,
-                                                'rag_duration': rag_duration})
+            result = client(question)
+            answer = result['response']
+            # Convert durations to integer milliseconds
+
+            llm_duration = max(int(result['llm_duration'] * 1000), -1)
+            rag_duration = max(int(result['rag_duration'] * 1000), -1)
+            question_answers['answers'].append({'model': model_name, 'answer': answer,
+                                                'llm_duration': llm_duration, 'rag_duration': rag_duration})
         answers_data.append(question_answers)
         print(f"Completed question {idx}/{total_questions}.")
     return answers_data
+
 
 
 def ask_llm(model, query):
@@ -30,7 +34,7 @@ def ask_llm(model, query):
     if model.startswith('ollama'):
         base_url = "http://localhost:11434"
 
-    start_time = time.time()
+    start_time = time.perf_counter()
     response = completion(
         model=model,
         messages=[
@@ -38,7 +42,7 @@ def ask_llm(model, query):
         ],
         api_base=base_url
     )
-    end_time = time.time()
+    end_time = time.perf_counter()
     duration = end_time - start_time
 
     return {"response": response.choices[0].message.content, "llm_duration": duration, "rag_duration": -1}
@@ -66,11 +70,10 @@ def main():
 
     clients = {}
     for model in selected_models:
-        clients[model] = lambda q: ask_llm(all_models[model], q)
+        clients[model] = lambda q, m=model: ask_llm(all_models[m], q)
     clients['ollama_rag'] = lambda q: ollama_rag.rag(ollama_rag_client, q)
 
-
-    answers_data = generate_answers(questions, clients, config)
+    answers_data = generate_answers(questions, clients)
     save_answers_json(answers_data, os.path.join(config['evaluation_path'], 'answers.json'))
     save_answers_csv(answers_data, os.path.join(config['evaluation_path'], 'answers.csv'))
     save_answers_html(answers_data, os.path.join(config['evaluation_path'], 'answers.html'))

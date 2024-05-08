@@ -4,27 +4,27 @@
         "answers": [
             {
                 "model": "gpt-4",
-                "answer": "Radio City Music Hall opened to the public on December 27, 1932, in New York City.",
-                "llm_duration": 0.8070094585418701,
+                "answer": "Radio City Music Hall opened to the public on December 27, 1932.",
+                "llm_duration": 2007,
                 "rag_duration": -1
             },
             {
                 "model": "ollama-llama3",
-                "answer": "Radio City Music Hall opened to the public on December 27, 1932. It was originally designed as a palace for the people, a place where ordinary people could experience the best of entertainment in a luxurious setting. The hall was designed by architect Edward Durrel Stone and interior designer Donald Deskey, and it was built as part of the Rockefeller Center complex in New York City. Since its opening, Radio City Music Hall has become a legendary venue, hosting countless concerts, shows, and events, including the famous Rockettes' Christmas Spectacular.",
-                "llm_duration": 0.5221478939056396,
+                "answer": "A legendary venue!\n\nRadio City Music Hall, also known as Rockefeller Center's Radio City Music Hall, opened its doors to the public on December 8, 1932. The Art Deco-style theater was designed by architect Edward Durrel Stone and was built as a flagship facility for NBC Radio, with a seating capacity of over 6,000.\n\nThe venue quickly became famous for its live performances, including radio broadcasts, stage shows, and films. Its iconic stage has hosted many legendary performers, such as the Rockettes (the venue's signature attraction), Fred Astaire, Judy Garland, Frank Sinatra, and Elvis Presley, to name a few.\n\nToday, Radio City Music Hall remains one of New York City's most beloved entertainment landmarks, continuing to host concerts, musicals, and other events.",
+                "llm_duration": 22736,
                 "rag_duration": -1
             },
             {
                 "model": "groq-llama3-70b",
                 "answer": "Radio City Music Hall opened to the public on December 27, 1932.",
-                "llm_duration": 8.287791728973389,
+                "llm_duration": 2545,
                 "rag_duration": -1
             },
             {
                 "model": "ollama_rag",
-                "answer": "According to the text, Radio City Music Hall opened to the public on December 27, 1932.",
-                "llm_duration": 0.8248691558837891,
-                "rag_duration": 0.007151603698730469
+                "answer": "According to the provided text, Radio City Music Hall opened to the public on December 27, 1932.",
+                "llm_duration": 67110,
+                "rag_duration": 7
             }
         ]
     },
@@ -33,27 +33,27 @@
         "answers": [
             {
                 "model": "gpt-4",
-                "answer": "The Rand Tower Hotel, located in Minneapolis, Minnesota, stands at a height of 436 feet (133 meters) with 26 floors.",
-                "llm_duration": 0.6075892448425293,
+                "answer": "The Rand Tower Hotel is approximately 277 feet tall.",
+                "llm_duration": 1801,
                 "rag_duration": -1
             },
             {
                 "model": "ollama-llama3",
-                "answer": "According to various sources, the Rand Tower Hotel in Minneapolis, Minnesota, stands at a height of 264 feet (80 meters) with 26 floors.",
-                "llm_duration": 3.1824097633361816,
+                "answer": "According to various sources, including the hotel's website and online travel agencies, the Rand Tower Hotel in Denver, Colorado stands at a height of 214 feet (65 meters) with 17 floors. Would you like to know more about this historic hotel or perhaps its amenities?",
+                "llm_duration": 7299,
                 "rag_duration": -1
             },
             {
                 "model": "groq-llama3-70b",
-                "answer": "The Rand Tower Hotel, located in Minneapolis, Minnesota, stands at a height of 406 feet (124 meters).",
-                "llm_duration": 1.2502527236938477,
+                "answer": "The Rand Tower Hotel, located in Minneapolis, Minnesota, stands at a height of 277 feet (84 meters) with 26 floors.",
+                "llm_duration": 1709,
                 "rag_duration": -1
             },
             {
                 "model": "ollama_rag",
-                "answer": "According to the text, Rand Tower Hotel has a height of 26 stories, but there is no mention of its total height in feet or meters. However, we can look at Nelson Tower's information as a comparison. According to the text, Nelson Tower stands at 46 stories tall and 560 feet (170 m) high.",
-                "llm_duration": 0.6885817050933838,
-                "rag_duration": 0.009638786315917969
+                "answer": "According to the text, Rand Tower Hotel is not mentioned as having a specific height. However, it does mention that Rand Tower was added to the National Register of Historic Places in 1994 and that Maven Real Estate Partners purchased the building in 2017 for $18.7 million.\n\nIt's possible that the original building was completed in 1929 and stood at a certain height, but since the text doesn't provide specific information about Rand Tower Hotel's height, I would not be able to answer this question accurately based on the provided text.",
+                "llm_duration": 63809,
+                "rag_duration": 10
             }
         ]
     },
@@ -62,27 +62,27 @@
         "answers": [
             {
                 "model": "gpt-4",
-                "answer": "The Mark Hellinger Theatre, located in New York City, opened on April 22, 1930. During its first decade, the theater was primarily used as a venue for musicals, plays, and vaudeville performances.\n\nIn the early 1930s, the theater was known for hosting some of the most popular musicals of the time, including the Rodgers and Hart musical \"Simple Simon\" (1930) and the Gershwin brothers' \"Of Thee I Sing\" (1931), which won the Pulitzer Prize in 1932.\n\nThe Mark Hellinger Theatre was also a popular spot for vaudeville performances, featuring acts such as the Marx Brothers, Al Jolson, and Eddie Cantor. The theater's large stage and ornate decorations made it an ideal venue for lavish productions and big-name performers.\n\nDuring the 1930s, the theater was also used for film premieres and screenings. For example, the 1939 film \"The Wizard of Oz\" premiered at the Mark Hellinger Theatre in August 1939.\n\nAdditionally, the theater hosted various benefit performances and charity events, such as the 1933 \"Stars Over Broadway\" benefit, which featured performances by stars like Clark Gable, Jean Harlow, and the Marx Brothers.\n\nOverall, during its first decade, the Mark Hellinger Theatre was a thriving entertainment venue that showcased a wide range of performances, from musicals and plays to vaudeville and film screenings.",
-                "llm_duration": 2.923802375793457,
+                "answer": "The Mark Hellinger Theatre started its life as a movie palace when it was constructed in 1930, originally named the Warner Bros. Hollywood Theatre. It was primarily used for the exhibition of Warner Bros. films, often premiering major releases. It might also host live vaudeville acts in between the screenings. \n\nIn 1934, it became a popular site for CBS Radio broadcasts in addition to its continuing function as a cinema. The Lux Radio Theatre, one of the most popular dramatic radio shows at the time, was broadcasted from here, featuring adaptations of popular movies with original casts often reprising their film roles.\n\nIn the later years of the decade, it continued to blend cinema and live entertainment, hosting occasional stage productions and concerts.\n\nThen in 1940s, it began to transition to legitimate theater.\nA Broadway show, \"The Duchess Misbehaves\" was first stage performance in 1946. This marked its full conversion into a legitimate Broadway theater.\n\nFinally, in 1949, it was renamed as the Mark Hellinger Theatre in honor of the noted Broadway journalist and producer. The theater continued to host notable Broadway productions for decades.",
+                "llm_duration": 18613,
                 "rag_duration": -1
             },
             {
                 "model": "ollama-llama3",
-                "answer": "The Mark Hellinger Theatre, located in New York City, opened on April 10, 1930. During its first decade, from 1930 to 1940, the theatre was primarily used for live performances, including:\n\n1. Vaudeville shows: The Mark Hellinger Theatre was one of the last grand vaudeville houses built in New York City. It featured a mix of musical and comedy acts, magicians, dancers, and other variety performers.\n2. Musicals and revues: The theatre hosted several musical productions, including revues, which were popular variety shows featuring music, dance, and comedy.\n3. Plays and dramas: The Mark Hellinger Theatre also presented straight plays and dramas, often featuring well-known actors and actresses of the time.\n4. Concerts: The theatre occasionally hosted concerts, showcasing popular musicians and orchestras.\n5. Benefit performances: The theatre was also used for charity events and benefit performances, supporting various causes and organizations.\n\nNotable events and productions during the first decade of the Mark Hellinger Theatre include:\n\n* The theatre's opening night featured a vaudeville show starring Ethel Barrymore, among others.\n* In 1931, the theatre hosted a production of the musical \" Faces,\" starring Fred Astaire.\n* In 1932, the theatre presented a revival of the play \"The Front Page,\" starring men's fashion editor and gossip columnist, Walter Kerr.\n* In 1935, the theatre hosted a benefit performance for the New York City Opera, featuring soprano Lily Pons.\n\nOverall, during its first decade, the Mark Hellinger Theatre established itself as a prominent venue for live entertainment in New York City, featuring a diverse range of performances and events.",
-                "llm_duration": 1.7402904033660889,
+                "answer": "The Mark Hellinger Theatre, also known as the Little Hellinger, was a popular entertainment venue in New York City during its early years. Here's how it was used in the first decade of its construction (1928-1938):\n\n1. Silent films and live shows (1928-1930): Initially, the theater hosted silent films with live musical accompaniment by pianists or orchestras. It also featured vaudeville-style stage shows, including comedy acts, dance performances, and magic tricks.\n2. Early talkies and revues (1930-1933): As sound films became more popular, the Mark Hellinger Theatre began showing early \"talkies\" (movies with synchronized sound). The theater also hosted musical revues, featuring singers, dancers, and comedians.\n3. Broadway productions (1933-1938): In the mid-to-late 1930s, the theatre transitioned to hosting full-fledged Broadway productions, including plays, musicals, and revivals of classic shows.\n\nSome notable productions during this period include:\n\n* \"The Little Show\" (1929), a revue featuring songs by Rodgers and Hart\n* \"Strike Up the Band\" (1930), a musical comedy starring Jimmy Durante\n* \"Lady in the Dark\" (1941), a play by Moss Hart and Kurt Weill\n\nThe Mark Hellinger Theatre continued to evolve throughout its history, hosting various forms of entertainment until it was renovated into an office building in the 1960s.",
+                "llm_duration": 39337,
                 "rag_duration": -1
             },
             {
                 "model": "groq-llama3-70b",
-                "answer": "The Mark Hellinger Theatre, located in New York City, opened on April 18, 1930. During its first decade, the theatre was primarily used as a movie palace, showcasing films and hosting premieres. Here are some ways the Mark Hellinger Theatre was used during its early years:\n\n1. **Movie premieres**: The theatre hosted many high-profile movie premieres, including the world premiere of \"The Public Enemy\" (1931) starring James Cagney and \"Frankenstein\" (1931).\n2. **First-run movies**: The Mark Hellinger Theatre was a popular venue for first-run movies, featuring the latest releases from major studios like Paramount, Warner Bros., and RKO.\n3. **Live stage shows**: In addition to films, the theatre occasionally hosted live stage shows, including vaudeville performances, concerts, and musical revues.\n4. **Radio broadcasts**: The Mark Hellinger Theatre was occasionally used as a broadcast venue for radio shows, with live performances being transmitted to radio audiences.\n5. **Private events**: The theatre's opulent interior and large capacity made it an attractive venue for private events, such as charity galas, corporate events, and high-society gatherings.\n6. **Film industry events**: The theatre was often used for film industry events, including screenings for film critics, press previews, and industry gatherings.\n\nDuring its early years, the Mark Hellinger Theatre was one of the most prominent and luxurious movie palaces in New York City, attracting celebrities, socialites, and film enthusiasts alike.",
-                "llm_duration": 7.216448783874512,
+                "answer": "The Mark Hellinger Theatre, located in Midtown Manhattan, New York City, opened on April 10, 1930. During its first decade, the theatre was primarily used as a movie palace and a live performance venue. Here are some ways it was utilized:\n\n1. **Movie premieres and screenings**: The Mark Hellinger Theatre was designed as a movie palace, and it hosted many film premieres, including Hollywood blockbusters and European art films. It was one of the most popular movie theaters in New York City during the 1930s.\n2. **Live performances**: The theatre featured live performances, including stage shows, vaudeville acts, and concerts. It was a popular venue for musical performances, with artists like Duke Ellington and his orchestra performing on its stage.\n3. **Radio broadcasts**: The Mark Hellinger Theatre was used for live radio broadcasts, including performances by popular orchestras and bands. The theatre's excellent acoustics made it an ideal location for radio broadcasts.\n4. **Special events**: The theatre hosted various special events, such as charity benefits, fashion shows, and award ceremonies. Its opulent decorations and large capacity made it a popular choice for high-profile events.\n5. **Concerts and recitals**: The Mark Hellinger Theatre was used for classical music concerts and recitals, featuring renowned performers of the time. The theatre's excellent acoustics and large stage made it an ideal venue for musical performances.\n6. **Milestone events**: During its first decade, the theatre hosted several milestone events, including the 1932 premiere of the film \"Tarzan the Fearless\" and a 1935 benefit concert for the victims of the Ohio River flood.\n\nOverall, the Mark Hellinger Theatre was a vibrant and versatile venue during its first decade, showcasing a wide range of entertainment options to the public.",
+                "llm_duration": 4493,
                 "rag_duration": -1
             },
             {
                 "model": "ollama_rag",
-                "answer": "According to the text, here's how Mark Hellinger Theatre was used in its first decade of construction (from 1930-1940):\n\n* Opened as a movie palace with a single screen, showing talking motion pictures\n* Hosted various performances, including Grind (75 performances) and Tango Argentino (about 200 performances)\n* Showcased the musical Rags for just four performances in 1986\n* Featured dance production Flamenco Puro later that same year\n* Held industry bookings and hosted personal appearances by notable artists\n\nIt's worth noting that during this period, the theatre was also being considered for landmark status by the New York City Landmarks Preservation Commission.",
-                "llm_duration": 0.8949875831604004,
-                "rag_duration": 0.0077326297760009766
+                "answer": "According to the provided text, Mark Hellinger Theatre (formerly known as 51st Street Theatre and Hollywood Theatre) was used for various purposes during its first decade of construction (1930-1940). Here are some notable events:\n\n1. 1930: The theatre opened as a movie palace with 1,605 seats across two levels.\n2. Early 1980s: The theatre hosted Grind for 75 performances and Tango Argentino for about 200 performances.\n3. Mid-1980s: The Hellinger showed short runs, solo shows, and industry bookings.\n4. 1985: A Chorus Line was partly shot on location at the theater.\n5. Late 1980s: The theatre hosted various events, including personal appearances from Smokey Robinson/ Jean Carne, Virsky Company, Rodney Dangerfield, and the Georgian State Dance Company.\n\nThese events suggest that during its first decade of construction, Mark Hellinger Theatre was used as a movie palace and later as a venue for various performances, including plays, musicals, and concerts.",
+                "llm_duration": 98757,
+                "rag_duration": 9
             }
         ]
     },
@@ -91,27 +91,27 @@
         "answers": [
             {
                 "model": "gpt-4",
-                "answer": "Lamar High School! After researching, I'm happy to provide you with an overview of its architectural style and design.\n\nLamar High School, located in Arlington, Texas, was built in 1965 and has undergone several renovations and expansions since its initial construction. Here's a descriptive outline of its architecture:\n\n**Architectural Style:** The school's design is primarily a blend of Mid-Century Modern and Brutalist styles, with elements of Functionalist architecture.\n\n**Building Layout:** The campus consists of multiple buildings, including the main school building, a gymnasium, a performing arts center, and a football stadium. The main school building is a sprawling, single-story structure with multiple wings, creating a horseshoe shape that surrounds a central courtyard.\n\n**Exterior Design:** The exterior fa\u00e7ade features a mix of materials, including:\n\n1. **Exterior Walls:** The walls are primarily composed of brick, with a combination of red and brown hues, which gives the building a warm, earthy tone.\n2. **Windows:** The windows are a dominant feature, with large, rectangular panes that allow for ample natural light to enter the classrooms. Many windows have a decorative concrete lintel above them.\n3. **Roofing:** The roof is flat, with a subtle slope to facilitate water runoff.\n\n**Interior Design:** The interior spaces are functional and efficient, with an emphasis on natural light and ventilation. Some notable features include:\n\n1. **Long Corridors:** The main corridors are long and straight, connecting the various wings of the building.\n2. **Classrooms:** Classrooms are generally rectangular, with large windows and sliding glass doors that lead to outdoor courtyards.\n3. **Common Areas:** The school features several communal spaces, including a large cafeteria, a library, and a courtyard that serves as a central gathering area.\n\n**Renovations and Additions:** Over the years, the school has undergone multiple renovations, including a major overhaul in 2007 that updated the building's infrastructure, improved energy efficiency, and added new classrooms and facilities.\n\n**Awards and Recognition:** Lamar High School's architectural design has garnered recognition, including the National Register of Historic Places designation in 2013, acknowledging its significance in American architectural history.\n\nI hope this description provides you with a comprehensive understanding of Lamar High School's architectural style and design!",
-                "llm_duration": 2.3305656909942627,
+                "answer": "Lamar High School, located in Houston, Texas, boasts an architectural design that is contemporary and sophisticated. The building sprawls over a large area and features multiple stories to accommodate its broad range of educational facilities.\n\nThe original iconic main building, built in the 1930s, showcases a combination of Art Deco and Georgian revival styles with its stately red brick exterior, ornamental detailing, symmetric bay windows, and prominent rounded portico entrance. Behind the main building are further modern multi-story additions which were added in recent years. These have a sleek, functional aesthetic with an extensive use of glass and metal throughout.\n\nThe main entrance leads to a grand hallway which slices through the heart of the school, providing access to various educational wings. The color scheme inside the building is soothing and allows abundant natural light to filter in through large windows. Throughout the school, spaces are designed to foster collaborative learning, featuring flexible classroom settings, science labs, and specialized classrooms for fine arts.\n\nOther architectural highlights include an updated gymnasium, a black box theater, an indoor pool, and plenty of open spaces for students to socialize and relax. The campus also includes outdoor sports facilities along with plenty of green space, trees, and landscaping. \n\nOverall, the architecture of Lamar High School represents a careful blend of tradition and modernity, facilitating its goal of providing a comprehensive and future-forward education to its students.",
+                "llm_duration": 16954,
                 "rag_duration": -1
             },
             {
                 "model": "ollama-llama3",
-                "answer": "Lamar High School is a public high school located in Houston, Texas, USA. The school was established in 1937 and has undergone several renovations and expansions over the years. Here is a general description of the architecture of Lamar High School:\n\n**Original Building (1937)**: The original building of Lamar High School was designed in the Collegiate Gothic style, a popular architectural style for educational institutions during the 1920s and 1930s. The building's fa\u00e7ade features a mix of red brick, limestone, and grey stone, with a central clock tower and a grand entrance with a Gothic-style archway. The interior features a central courtyard, high ceilings, and ornate details such as wooden paneling and ornate plaster work.\n\n**Additions and Renovations (1950s-1980s)**: Over the years, the school has undergone several additions and renovations to accommodate growing enrollment and changing educational needs. These additions have been designed in a variety of styles, including Mid-Century Modern and Brutalist architecture. The additions have expanded the school's footprint, adding new classrooms, laboratories, and amenities such as a library, auditorium, and gymnasium.\n\n**Contemporary Features**: In recent years, Lamar High School has undergone significant renovations to modernize its facilities and provide state-of-the-art amenities for students. These renovations have added features such as:\n\n* A new entrance and administration building with a modern, curved fa\u00e7ade\n* A renovated library with plenty of natural light and collaborative workspaces\n* Upgraded classrooms and laboratories with advanced technology and flexible seating\n* A new cafeteria with outdoor seating areas and a courtyard\n* Improved athletic facilities, including a new stadium and field house\n\n**Campus Layout**: The Lamar High School campus is situated on a 32-acre site in the Upper Kirby neighborhood of Houston. The campus is bounded by Westheimer Road to the north, Audubon Place to the south, and Bissonnet Street to the west. The campus features a mix of old and new buildings, with the original building serving as the centerpiece. The campus is surrounded by mature trees and features several outdoor spaces, including a courtyard, a quad, and athletic fields.\n\nOverall, the architecture of Lamar High School reflects a blending of historical and modern styles, with a focus on functionality, sustainability, and providing a supportive and inspiring learning environment for students.",
-                "llm_duration": 5.217660665512085,
+                "answer": "Lamar High School is a public high school located in Homer, Louisiana. The architecture of the school is a blend of modern and traditional styles, with a focus on functionality and aesthetics.\n\nThe main building of the school features a rectangular shape with a flat roof and a fa\u00e7ade made of concrete block and brick veneer. The walls are adorned with horizontal bands of windows and doors, which provide natural lighting and ventilation to the interior spaces. The exterior surfaces are finished with a combination of stucco and painted finishes.\n\nThe entrance of the school is marked by a prominent portico with a sloping roofline and a decorative canopy above the main door. The portico is supported by square columns with rounded capitals, which add a touch of classical elegance to the design.\n\nInside the school, the hallways are wide and well-lit, with a grid-like pattern of dropped ceilings and suspended fluorescent lights. The floors are covered with vinyl tile or carpeting, depending on the area of the school. The walls are painted in a variety of colors and feature bulletin boards, lockers, and other decorative elements.\n\nThe classrooms and administrative offices are arranged around a central courtyard, which provides natural light and ventilation to these areas. The interior spaces are generally well-proportioned and well-appointed, with large windows and sliding glass doors that provide access to the outdoors.\n\nOverall, the architecture of Lamar High School is functional, yet aesthetically pleasing, and reflects the educational institution's commitment to providing a safe and supportive learning environment for its students.",
+                "llm_duration": 38424,
                 "rag_duration": -1
             },
             {
                 "model": "groq-llama3-70b",
-                "answer": "Lamar High School is a public high school located in Arlington, Texas, United States. The school's architecture is a blend of modern and traditional styles, reflecting the school's history and growth over the years. Here's a descriptive overview of the school's architecture:\n\n**Exterior:**\n\n* The school's exterior is characterized by a mix of brick, stone, and stucco finishes, giving it a warm and earthy tone.\n* The main entrance is marked by a prominent archway, which is flanked by twin columns, creating a sense of grandeur and welcoming students and visitors.\n* The roofline is a combination of flat and sloping sections, with a noticeable curvature that adds visual interest to the building's silhouette.\n\n**Campus Layout:**\n\n* The campus is laid out in a series of interconnected buildings and courtyards, creating a sense of community and flow.\n* The main building is divided into wings, each housing different departments and facilities, such as the cafeteria, library, and gymnasium.\n* Outdoor spaces, including courtyards and athletic fields, provide students with areas for recreation, relaxation, and socialization.\n\n**Interior:**\n\n* The interior design is modern and functional, with an emphasis on natural light and comfortable learning environments.\n* The hallways are wide and well-lit, with lockers and display cases showcasing student achievements and school spirit.\n* Classrooms are equipped with state-of-the-art technology and flexible seating arrangements, promoting collaborative learning and student engagement.\n* The school's auditorium, gymnasium, and fine arts facilities are well-equipped and spacious, hosting various events and performances throughout the year.\n\n**Sustainable Features:**\n\n* Lamar High School has incorporated various sustainable features into its design, including energy-efficient systems, natural light harvesting, and a rainwater harvesting system.\n* The school's architecture aims to promote environmental stewardship and reduce its carbon footprint, providing a healthy and comfortable learning environment for students.\n\nOverall, the architecture of Lamar High School is a thoughtful blend of form and function, prioritizing student learning, comfort, and community engagement while incorporating modern amenities and sustainable practices.",
-                "llm_duration": 2.0883941650390625,
+                "answer": "The iconic Lamar High School in Houston, Texas! After some research, I'd be happy to provide a description of its architecture.\n\n**Style and Design**: Lamar High School's architecture is a blend of Modern and Art Deco styles, reflecting the building's construction in the early 20th century. The school's design is characterized by its use of clean lines, geometric shapes, and ornate decorative elements.\n\n**Building Layout**: The school's campus spans over 20 acres, with the main building occupying a significant portion of the site. The structure is divided into several wings, each housing various academic departments, administrative offices, and common areas. The floor plan is generally rectangular, with long corridors connecting the different sections of the building.\n\n**Exterior Features**: The exterior of Lamar High School is marked by its use of red brick, limestone, and concrete. The fa\u00e7ade features a series of horizontal bands, creating a sense of horizontality. The main entrance is flanked by two large flared pillars, adding a sense of grandeur to the building's entrance. The roofline is flat, with a subtle cornice detailing at the eaves.\n\n**Interior Features**: Upon entering the school, you're greeted by a spacious atrium with a grand staircase, which connects the two main floors. The interior design incorporates elements of Art Deco, including ornate metalwork, geometric patterns, and ornamental plasterwork. The hallways feature natural light pouring in through large windows, and the classrooms are well-lit, with wooden floors and decorativeTrim.\n\n**Notable Features**: Lamar High School boasts several notable architectural features, including a stunning auditorium with a grand stage, a large gymnasium, and a beautiful courtyard that connects the main building to the adjacent buildings.\n\n**Historic Significance**: Lamar High School is listed on the National Register of Historic Places, recognizing its significance as an example of early 20th-century educational architecture.\n\nOverall, the architecture of Lamar High School is a testament to the era in which it was built, showcasing a blend of modernist and art deco elements that create a unique and striking educational environment.\n\nWould you like me to explore any specific aspects of the school's architecture further?",
+                "llm_duration": 4738,
                 "rag_duration": -1
             },
             {
                 "model": "ollama_rag",
-                "answer": "Based on the provided text, here is a description of the architecture of Lamar High School:\n\nThe campus consists of four buildings, including the original North Building built in 1936. The North Building is a four-story structure with a basement level and has an atmosphere reminiscent of a corporate work environment. It features \"cohorts\" and a snack bar that students can use at any time.\n\nPrior to the late 2010s renovation, the campus had experienced disrepair and had insufficient facilities for its growing student body. The 2019 renovation brought the destruction of the West and East buildings that served Lamar since the 1980s. A new instructional building on Babel Street features completely redone educational facilities and premier sports facilities.\n\nThe original design of the school's buildings was done by John F. Staub, Kenneth Franzheim, Louis A. Glover, Lamar Q. Cato, and Harry D. Payne, using a \"Z-plan\" layout with the auditorium and shop wings on opposite ends of the academic block. The construction has been described as having \"a more avant-garde expression.\"\n\nThe campus also features a baseball field, a football field, and tennis courts. There is no central cafeteria, instead students have access to snack bars throughout the campus.\n\nOne notable architectural feature is a large map of Texas on the wall of the performance hall, which adds to the school's distinctive character.\n\nOverall, Lamar High School has a unique architecture that reflects its rich history and growth over the years.",
-                "llm_duration": 0.7960436344146729,
-                "rag_duration": 0.008676528930664062
+                "answer": "Based on the provided text, here is a description of the architecture of Lamar High School:\n\nThe original building, now known as the North Building, was constructed in 1936 and designed by architects John F. Staub, Kenneth Franzheim, Louis A. Glover, Lamar Q. Cato, and Harry D. Payne. The design features a \"Z-plan\" layout, with the auditorium and shop wings located at opposite ends of the academic block.\n\nThe original building has undergone renovations and expansions over the years. In 2018, a $108 million construction and renovation project began, which included major renovations to the existing historically significant portions of the North Building and an entirely new classroom and instructional facility.\n\nThe campus features four buildings in total, including the renovated North Building, as well as a baseball field, a football field, and tennis courts. The school has undergone changes in its facilities over the years, with the destruction of the West and East buildings that served Lamar since the 1980s.\n\nA notable feature of the campus is the large map of Texas located on the wall of the performance hall. In 2012, Richard Connelly of the Houston Press ranked Lamar as the seventh most architecturally beautiful high school campus in Greater Houston, describing it as \"definitely one of the most distinctive schools in town.\"",
+                "llm_duration": 101040,
+                "rag_duration": 10
             }
         ]
     },
@@ -120,27 +120,27 @@
         "answers": [
             {
                 "model": "gpt-4",
-                "answer": "The Oregon State Capitol building in Salem, Oregon was constructed in the late 1930s and was completed in 1938. The total cost of the building was approximately $2.5 million, which is equivalent to around $44 million in today's dollars, adjusted for inflation.\n\nHere's a breakdown of the costs:\n\n* Original appropriation: $1.5 million (1935)\n* Additional appropriation: $500,000 (1936)\n* Final cost: $2,050,000 (1938)\n\nIt's worth noting that the cost of the building was funded through a combination of state funds and a federal grant from the Public Works Administration (PWA), which was a New Deal agency established by President Franklin D. Roosevelt to provide jobs and stimulate economic recovery during the Great Depression.",
-                "llm_duration": 1.0995337963104248,
+                "answer": "The Oregon State Capitol was built in 1938 and cost approximately $2.5 million.",
+                "llm_duration": 1718,
                 "rag_duration": -1
             },
             {
                 "model": "ollama-llama3",
-                "answer": "The Oregon State Capitol building in Salem, Oregon was built in 1936-1938 and cost approximately $2.5 million to construct. Adjusted for inflation, that would be equivalent to around $47 million in today's dollars.",
-                "llm_duration": 3.363394260406494,
+                "answer": "The Oregon State Capitol building was constructed in several phases, with the main building being completed in 1938. Here are some estimated costs associated with the construction of the Oregon State Capitol:\n\n* Original building (1874-1889): The original capitol building cost approximately $250,000 to build.\n* Expansion and renovation (1902-1913): The building was expanded and renovated between 1902 and 1913 at a cost of around $500,000.\n* Current building (1936-1938): The current building, which includes the iconic gold dome, was constructed between 1936 and 1938. The estimated cost for this phase was around $4 million.\n\nIn today's dollars, these costs would be equivalent to:\n\n* Original building: Around $7.5 million (adjusted for inflation)\n* Expansion and renovation: Around $13.5 million\n* Current building: Around $67 million\n\nPlease note that these estimates are based on available data and may not reflect the actual construction costs at the time.",
+                "llm_duration": 26599,
                 "rag_duration": -1
             },
             {
                 "model": "groq-llama3-70b",
-                "answer": "The Oregon State Capitol building in Salem, Oregon was constructed in several phases between 1935 and 1937, and the cost of its construction was approximately $2.5 million at that time.\n\nAdjusted for inflation, the equivalent cost in today's dollars would be around $47 million.\n\nIt's worth noting that the building has undergone several renovations and restorations over the years, including a major restoration project from 2001 to 2007 that cost around $61 million.",
-                "llm_duration": 3.253169298171997,
+                "answer": "The Oregon State Capitol building in Salem, Oregon was completed in 1938 and replaced the previous capitol building that was destroyed by a fire in 1935.\n\nAccording to various sources, including the Oregon State Capitol's official website, the construction cost of the current capitol building was approximately $2.5 million.\n\nAdjusted for inflation, $2.5 million in 1938 would be equivalent to around $45 million in today's dollars.\n\nIt's worth noting that the construction of the capitol building was a significant undertaking that required the work of many architects, engineers, contractors, and laborers. The building's design is a mix of Art Deco and Stripped Classical styles, and it features a distinctive gold-plated dome that rises 166 feet above the ground. The building has undergone several restorations and renovations over the years, including a major restoration project in the 1990s that cost around $70 million.",
+                "llm_duration": 3996,
                 "rag_duration": -1
             },
             {
                 "model": "ollama_rag",
-                "answer": "According to the text, the Oregon State Capitol cost:\n\n* $2.5 million for the central portion of the building, which includes a cupola of 166 feet.\n* $12.5 million for the wings, which doubled the floor space of the building to about 233,750 square feet.\n\nSo, in total, the construction of the Oregon State Capitol cost approximately $15 million.",
-                "llm_duration": 0.6762158870697021,
-                "rag_duration": 0.007246732711791992
+                "answer": "According to the text, the original cost of the second capitol building (1873-1876) was $325,000.\n\nLater, in 1938, the current Oregon State Capitol building was constructed at a cost of $2.5 million for the central portion of the building. The wings were added later at an additional cost of $12.5 million.",
+                "llm_duration": 72961,
+                "rag_duration": 9
             }
         ]
     },
@@ -149,27 +149,259 @@
         "answers": [
             {
                 "model": "gpt-4",
-                "answer": "What a great question!\n\nWhile the Golden Gate Bridge is primarily known for its iconic suspension design and striking orange color, it does feature some Art Deco elements in its design. Here are some of the Art Deco-inspired features of the Golden Gate Bridge:\n\n1. **Streamlined towers**: The bridge's two iconic towers, which support the suspension cables, have a streamlined, aerodynamic shape that was fashionable during the Art Deco era. The towers' tapered, elliptical shapes and smooth, curved lines evoke the sense of speed and modernity that characterized Art Deco design.\n2. **Geometric ornamentation**: The bridge's towers and anchorages feature geometric patterns, such as chevrons and zigzags, which are characteristic of Art Deco design. These ornamental motifs add a touch of elegance and sophistication to the bridge's industrial functionality.\n3. **Metalwork details**: The bridge's metalwork, including the light standards, railings, and lamp posts, feature ornate, curved lines and geometric patterns that reflect the Art Deco style.\n4. ** Terminal building design**: The terminal buildings at either end of the bridge, designed by architect Irving Morrow, incorporate Art Deco elements, such as zigzag motifs, chevrons, and ornate metalwork.\n5. **Lighting**: The original lighting fixtures, designed by Morrow, feature Art Deco-inspired designs, with geometric shapes and ornate metalwork.\n6. **Fonts and signage**: The bridge's signage, including the iconic \"Golden Gate Bridge\" signs, feature a distinctive Art Deco-inspired font, with geometric shapes and curved lines.\n\nWhile the Golden Gate Bridge is not a purely Art Deco structure, these elements pay homage to the popular design style of the time, which emphasized modernity, luxury, and technological innovation.\n\nKeep in mind that the Golden Gate Bridge was designed by engineer Joseph Strauss, with architectural consulting by Irving Morrow, and completed in 1937. The Art Deco style, popular from the 1920s to the 1940s, influenced the bridge's design, but it was not a primary design philosophy for the project.",
-                "llm_duration": 2.8663010597229004,
+                "answer": "The Golden Gate Bridge, an iconic landmark of San Francisco, is often regarded as an elegy to the Art Deco design movement of the early 20th century. While the bridge's primary purpose was functional, several Art Deco elements were incorporated into its design:\n\n1. Symmetry: The Art Deco movement highly values symmetry, which the Golden Gate Bridge incorporates through its repeating patterns in its structure, such as the linear arrangement of its suspension cables and towers.\n\n2. Geometric shapes and patterns: Art Deco is also renowned for its use of geometric shapes. The vertical lines of the bridge's towers and the repeating lines of the suspending cables give a strong geometric look, a key feature of Art Deco. \n\n3. Stepped Forms: The bridge's two main towers feature stepped forms, another characteristic Art Deco design attribute. The towers rise in three distinct stages, with each stage smaller than the one beneath it.\n\n4. Streamlined and sleek design: Art Deco appreciated streamlined, sleek designs which the Golden Gate Bridge certainly offers. Despite its massive size, the use of light steel cables provides it with a certain sleekness.\n\n5. Focus on modernity and progress: The Golden Gate Bridge's very construction was a feat of modern engineering. Its bold, forward-thinking design embodies the Art Deco movement's focus on advancement and innovation.\n\n6. Decorations: The geometric details at the top of the towers, the Art Deco lighting at the base of the towers and along the bridge also reflect the Art Deco style.\n\n7. Color Choice: The bridge's distinctive \"International Orange\" paint job, often associated with the hue of sunset, can also be argued as furthering the Art Deco masterpiece's appeal, giving it a grand and glamorous appearance.",
+                "llm_duration": 22266,
                 "rag_duration": -1
             },
             {
                 "model": "ollama-llama3",
-                "answer": "What a great question!\n\nThe Golden Gate Bridge, an iconic suspension bridge in San Francisco, California, is often associated with the Art Deco style, which was popular during the 1920s to 1940s. While the bridge's overall design is primarily a functional, utilitarian structure, there are some subtle Art Deco elements incorporated into its design. Here are some of the Art Deco elements you can spot on the Golden Gate Bridge:\n\n1. **Streamlined shapes**: The bridge's roadway and towers have a sleek, streamlined profile, reminiscent of Art Deco's emphasis on modernity and speed. The bridge's curved lines and tapered shapes evoke a sense of dynamism and futuristic flair.\n2. **Geometric patterns**: The bridge's towers feature a geometric pattern of diagonal latticework, which is a common Art Deco motif. This pattern adds visual interest and creates a sense of depth.\n3. **Metalwork ornamentation**: The bridge's railing and tower finials feature ornate metalwork with a subtle Art Deco flair. The railing's scrollwork and the finials' stepped profiles reflect the era's fascination with ancient cultures, like Egypt and Mesopotamia.\n4. **Chrome and steel accents**: The bridge's use of shiny chrome and steel accents, such as the lights, handrails, and other metal fittings, adds a touch of modernity and glamour, echoing the Art Deco era's fascination with luxury and technology.\n5. **Tower finials**: The bridge's iconic towers are capped with finials that resemble miniature skyscrapers, complete with stepped silhouettes and geometric patterns. These finials evoke the sense of verticality and modernity that was characteristic of Art Deco skyscrapers.\n6. **Integration of industrial and ornamental elements**: The Golden Gate Bridge's design seamlessly integrates functional industrial elements (like the suspension cables and towers) with ornamental details, which is a hallmark of Art Deco design.\n\nWhile the Golden Gate Bridge is not a pure Art Deco structure, these subtle design elements pay homage to the style's aesthetic principles. The bridge's design, by engineer Joseph Strauss and architect Irving Morrow, was influenced by the artistic and architectural trends of the time, resulting in a unique blend of functionalism and ornamental flair.\n\nNow, the next time you visit or see images of the Golden Gate Bridge, keep an eye out for these Art Deco elements that add to its timeless appeal!",
-                "llm_duration": 8.90841293334961,
+                "answer": "The Golden Gate Bridge, an iconic landmark in San Francisco, California, features several Art Deco elements. While it may not be immediately apparent to many people, the bridge's design incorporates various Art Deco characteristics, which were popular during its construction in the 1930s. Here are some of the notable Art Deco elements in the Golden Gate Bridge:\n\n1. **Geometric shapes**: The bridge's towers and piers are adorned with geometric shapes like triangles, circles, and rectangles, a hallmark of Art Deco design.\n2. **Streamlined forms**: The bridge's sleek, curved lines and streamlined profiles reflect the influence of Streamline Moderne, an Art Deco style that emphasized speed and modernity.\n3. **Ornate details**: The bridge's towers feature ornate details like carved stone, metalwork, and intricate latticework, reminiscent of the opulence often associated with Art Deco architecture.\n4. **Chevron patterns**: The bridge's roadway and sidewalk features chevron patterns, which are a classic Art Deco motif. These diagonal stripes add visual interest and create a sense of dynamic movement.\n5. **Luminous accents**: At night, the bridge's towers and suspension cables are illuminated by lights that cast an ethereal glow, evoking the glamour and sophistication often associated with Art Deco design.\n6. **Artistic ornamentation**: The bridge's piers and towers feature various artistic ornaments, including carved stone, metalwork, and painted details, which add visual interest and create a sense of elegance.\n7. **Industrial modernism**: The Golden Gate Bridge's use of industrial materials like steel, concrete, and cable suspensions reflects the intersection of Art Deco's ornate style with modernist principles.\n\nWhile the Golden Gate Bridge may not be as overtly ornate or decorative as some other Art Deco structures, its incorporation of these design elements helps to situate it within the broader context of 1930s architectural styles.",
+                "llm_duration": 50646,
                 "rag_duration": -1
             },
             {
                 "model": "groq-llama3-70b",
-                "answer": "While the Golden Gate Bridge is often associated with its iconic orange color and suspension design, it also features some stunning Art Deco elements. Here are some examples:\n\n1. **Tower decorations**: The towers that support the bridge's roadway are adorned with geometric patterns, chevrons, and zigzags, all characteristic of the Art Deco style. These decorations add a touch of elegance to the bridge's industrial structure.\n2. **Lighting fixtures**: The original light standards on the bridge, designed by Joseph Strauss, feature ornate, stepped pyramids with a Deco flair. Although the originals are no longer in use, replicas have been installed to maintain the bridge's historical integrity.\n3. **Railing and handrail details**: The railings and handrails on the bridge feature stylized, curved motifs, reminiscent of Art Deco's emphasis on curved lines and geometric shapes. These details add a touch of sophistication to the bridge's structure.\n4. **Anchorages**: The anchorages, which are the structures that secure the bridge's cables to the ground, are designed with Art Deco flair. The anchorages feature stepped, pyramidal shapes and geometric patterns, echoing the style's emphasis on modernity and elegance.\n5. **Gateway Plaza**: The approach to the bridge from the San Francisco side features a grand plaza, designed with Art Deco elements in mind. The plaza's architecture, including the toll booths and surrounding buildings, incorporates Deco-inspired details like stepped facades and zigzag motifs.\n\nWhile the Golden Gate Bridge is not an entirely Art Deco structure, its incorporation of Deco elements reflects the popular architectural style of the time (the bridge was completed in 1937). The blend of industrial functionality and Art Deco flair has contributed to the bridge's enduring aesthetic appeal.",
-                "llm_duration": 2.1432228088378906,
+                "answer": "What a great question!\n\nThe Golden Gate Bridge, an iconic suspension bridge in San Francisco, California, is often associated with Art Deco elements. While it's not a pure Art Deco structure, it does incorporate some stylistic features characteristic of the Art Deco movement. Here are some Art Deco elements found in the Golden Gate Bridge:\n\n1. **Streamlined curves**: The bridge's towers, piers, and roadway's curves are reminiscent of Art Deco's streamlined, aerodynamic forms, reminiscent of ocean liners and Zeppelins of the era.\n2. **Geometric ornamentation**: The bridge's towers feature geometric shapes, such as triangles, circles, and spheres, which are typical of Art Deco's use of geometric motifs.\n3. **Metalwork**: The bridge's towering latticework structure, made of riveted steel, showcases the Art Deco appreciation for industrial materials and modernity.\n4. **Chromium-nickel steel**: The bridge's use of chromium-nickel steel, a cutting-edge material at the time, reflects the Art Deco fascination with modern technology and innovation.\n5. **Color scheme**: The iconic \"International Orange\" color, a deep, rich orange, was chosen for the bridge, which echoes the vibrant, bold hues often used in Art Deco design.\n6. **Sleek, modernist lines**: The bridge's clean, minimalist design, with its emphasis on function over ornamentation, reflects the modernist principles that influenced Art Deco architecture.\n7. **Lighting**: The bridge's nighttime lighting, which was innovative for its time, adds a touch of glamour and sophistication, reminiscent of the glamorous evening scenes depicted in Art Deco cinema.\n\nWhile the Golden Gate Bridge is not a fully fledged Art Deco structure, it incorporates enough elements to make it a notable example of Art Deco's influence on modern architecture.\n\n(Side note: The Golden Gate Bridge's design was led by engineer Joseph Strauss and architect Irving Morrow, who were both influenced by the modernist and Art Deco styles popular during the 1920s and 1930s.)",
+                "llm_duration": 3624,
                 "rag_duration": -1
             },
             {
                 "model": "ollama_rag",
-                "answer": "The Golden Gate Bridge is not mentioned in this text, so there are no Art Deco elements to report. However, the Avalon Theatre and other structures described in the text do feature Art Deco elements.\n\nSome examples of Art Deco elements mentioned in the text include:\n\n* The exterior marquee features both neon and incandescent illumination\n* The interior art deco fixtures and d\u00e9cor remain as they were when built\n* Large Art Deco murals depicting a goddess with wildlife were painted by Edoardo G. Battisti\n* The theater's two-story grand lobby features a ceiling that rises to about 22 feet, a grand staircase, and a mezzanine\n* Decorative terracotta panels with a floral motif are used to define the mezzanine level of the lower stories\n* Two large chandeliers with crystal strands form geometric patterns consistent with the theater's Art Deco style\n\nThese elements contribute to the overall aesthetic of the Avalon Theatre and other structures described in the text.",
-                "llm_duration": 0.7481937408447266,
-                "rag_duration": 0.0076141357421875
+                "answer": "Based on the text, the Art Deco elements in Golden Gate Bridge are:\n\n* Elaborate Art Deco lobby\n* Hand-painted walls to resemble original veneer panels\n* Gold leaf used for the beamed ceiling's geometric design\n* Art Deco chandeliers and wall sconces restored\n* Inlaid Art Deco elevator doors on the second, third, and fourth floors\n* Fine Art Deco detailing in the ballroom\n\nThese elements are described as being part of the building's overall Art Deco style, which is employed throughout the building.",
+                "llm_duration": 69435,
+                "rag_duration": 9
+            }
+        ]
+    },
+    {
+        "question": "Describe 30 Rockefeller Plaza facade in detail.",
+        "answers": [
+            {
+                "model": "gpt-4",
+                "answer": "30 Rockefeller Plaza, also known as the Comcast Building, features an imposing facade that reflects the Art Deco style popular during the time of its construction in the early 1930s. The exterior of the building is largely clad in Indiana limestone, creating a surfaced grandeur with sleek and clean lines.\n\nThe facade is organized in a tripartite system - a three-part vertical division that mirrors classic column design, with a base, a shaft, and a capital. The base covers the lower three floors and is adorned with dynamic sculpture groups, while some are recessed beneath an extruded flat stone surround.\n\nThe shaft comprises the majority of the building's 70 stories and is mostly uniform with a series of rectangular windows which punctuates the smooth limestone finish. The windows showcase a minimalist style, beautifully complimenting the subdued opulence of the stone. \n\nThe capital is impressively crowned by a stepped back design, reflecting a \"wedding cake\" style, typical to American skyscrapers of its era due to the city zoning laws of the time. The topmost floors narrow to form a distinctive peak, making it one of New York's easily identified buildings.\n\nThe main entrance, which faces a sunken plaza, echoes the grandiosity of the building. Over it is a dramatic, recessed loggia, focusing attention on the entrance while exhibiting the allegorical relief sculpture of \"Intelligence Awakening Mankind.\"\n\nOverall, the fa\u00e7ade of 30 Rockefeller Plaza is an imposing manifestation of Art Deco elegance that impeccably melds grandiose style with sleek subtlety.",
+                "llm_duration": 20773,
+                "rag_duration": -1
+            },
+            {
+                "model": "ollama-llama3",
+                "answer": "The iconic 30 Rockefeller Plaza, also known as the GE Building or the RCA Building!\n\nLocated at the heart of Rockefeller Center in Midtown Manhattan, this stunning Art Deco skyscraper was completed in 1933 and has been a New York City landmark ever since. Here's a detailed description of its facade:\n\n**Main Fa\u00e7ade:**\nThe main fa\u00e7ade is an impressive 850 feet (260 meters) long, with a smooth, polished granite base that rises to meet the building's height of 70 stories (778 feet or 237 meters). The exterior walls are made of limestone and Indiana limestone, with a distinctive stepped pattern created by the use of smaller stones at the top.\n\n**Art Deco Ornamentation:**\nThe fa\u00e7ade is adorned with intricate Art Deco ornamentation, featuring geometric patterns, chevrons, and stylized motifs inspired by ancient cultures. The most striking feature is the majestic stone carvings above the main entrance, depicting scenes from mythology and history, including a majestic Atlas figure holding up the world.\n\n**Windows:**\nThe building's windows are rectangular in shape, with a slightly curved top and bottom. They're divided into two sections by a central vertical mullion (column), giving the impression of double-hung sash windows. The glazing is typically opaque on the lower floors, becoming more transparent towards the top.\n\n**Entrance:**\nThe main entrance is located at 30 Rockefeller Plaza's southeast corner, marked by a grand archway with an ornate bronze door and a dramatic staircase leading to the lobby. Above the entrance, a large stone sculpture of a Greek goddess (representing Peace) sits atop a pedestal, surrounded by ornate metalwork.\n\n**Roofline:**\nThe building's roofline is characterized by a series of horizontal lines created by the stepped profile of the limestone walls. A prominent setback creates a \"punched\" effect, where the building appears to have been cut away to form a shallow balcony.\n\n**Lighting:**\nAt night, the building comes alive with dramatic lighting that highlights its ornate features and Art Deco details. The result is an unforgettable visual spectacle, making 30 Rockefeller Plaza a beloved Manhattan icon.\n\nThis iconic skyscraper has been home to NBC's headquarters since 1933 and has hosted numerous notable events, including the annual Christmas tree lighting ceremony. Its stunning facade continues to captivate visitors from around the world.",
+                "llm_duration": 62029,
+                "rag_duration": -1
+            },
+            {
+                "model": "groq-llama3-70b",
+                "answer": "The iconic 30 Rockefeller Plaza! The 30 Rockefeller Plaza facade is a masterpiece of Art Deco architecture, designed by Raymond Hood and completed in 1933. Here's a detailed description of its magnificent exterior:\n\n**Materials:**\n\n* The building's exterior is primarily clad in Indiana limestone, with a buff-colored stone that gives it a warm, golden hue.\n* The limestone is accompanied by granite and marble accents, adding a touch of elegance and sophistication.\n\n**Fa\u00e7ade composition:**\n\n* The building's fa\u00e7ade is divided into three distinct sections: the base, the shaft, and the tower.\n* The base consists of the first five floors, featuring a rusticated limestone exterior with a rough, unfinished texture.\n* The shaft, comprising floors 6-24, is characterized by a smooth, polished limestone surface with vertical strips of windows.\n* The tower, which rises from floors 25-70, is where the building's signature Art Deco elements come into play.\n\n**Art Deco details:**\n\n* The tower's fa\u00e7ade is adorned with intricate, geometric patterns in metal and stone, showcasing the hallmarks of Art Deco style.\n* Chevrons (inverted V-shapes) and zigzag motifs are prominent, often accompanied by stylized floral and sunburst patterns.\n* The metalwork features a distinctive \" Meteor\" motif, depicting stylized, curved lines resembling meteor trajectories.\n* The tower's corners are marked by stylized, Art Deco-inspired pilasters, adding to the building's verticality.\n\n**Window design:**\n\n* The windows are arranged in a consistent, grid-like pattern, with pairs of narrow, rectangular windows separated by thin, vertical mullions.\n* The windows are framed in bronze, adding a touch of luxury and sophistication.\n\n**Entrance:**\n\n* The main entrance, located on 50th Street, is marked by a grand, stepped limestone pediment adorned with a stylized, Art Deco-inspired metal grille.\n* The doors are made of bronze, with intricate, geometric patterns that echo the building's exterior design.\n\n**Crowning feature:**\n\n* The building's crowning feature is the iconic, radiant, glass-and-metal spire, which rises from the tower's summit.\n* The spire's stepped, pyramidal shape is adorned with a stylized, Art Deco-inspired metal finial, adding a dramatic flourish to the building's silhouette.\n\nIn summary, the 30 Rockefeller Plaza facade is a masterclass in Art Deco design, combining limestone, granite, and marble with intricate metalwork, bold geometric patterns, and a sense of verticality that makes the building an iconic New York City landmark.",
+                "llm_duration": 2397,
+                "rag_duration": -1
+            },
+            {
+                "model": "ollama_rag",
+                "answer": "The facade of 30 Rockefeller Plaza is a notable feature of the building. Here's a detailed description:\n\n* The main material used for the facade is limestone, which covers approximately 600,000 square feet (56,000 square meters).\n* The limestone blocks are laid slightly irregularly to create a textured appearance and contain striations for visual effect.\n* In addition to the limestone, 10.38 million bricks were integrated into the facade.\n* The building's walls feature granite accents, with approximately 4,100 cubic feet (120 cubic meters) of granite used in construction.\n* Spandrel panels made of limestone and brick add additional texture and visual interest to the facade.\n\nOverall, the facade of 30 Rockefeller Plaza is a striking example of Art Deco architecture, with its use of limestone, granite, and brick creating a unique and eye-catching design.",
+                "llm_duration": 107832,
+                "rag_duration": 8
+            }
+        ]
+    },
+    {
+        "question": "Who is the architect of Aztec Hotel?",
+        "answers": [
+            {
+                "model": "gpt-4",
+                "answer": "The architect of Aztec Hotel is Robert Stacy-Judd.",
+                "llm_duration": 1607,
+                "rag_duration": -1
+            },
+            {
+                "model": "ollama-llama3",
+                "answer": "There is no such thing as the \"Aztec Hotel.\" The Aztecs were a pre-Columbian Mesoamerican civilization that flourished in central Mexico from the 14th to the 16th century. They did not build hotels, nor do they have any known architects or architectural designs associated with hotels.\n\nIt's possible you may be thinking of a different culture, such as Mayan architecture, which is often associated with pyramids and temples. Or perhaps you're thinking of a modern hotel design that incorporates Aztec or Mesoamerican-inspired elements? If that's the case, please let me know and I'll do my best to help you identify the architect or design team behind it!",
+                "llm_duration": 18106,
+                "rag_duration": -1
+            },
+            {
+                "model": "groq-llama3-70b",
+                "answer": "The Aztec Hotel, a historic hotel building in Monrovia, California, was designed by architect Robert Derrah. Derrah was a prominent architect in Southern California during the 1920s and 1930s, and the Aztec Hotel is considered one of his most notable works. The hotel was built in 1925 and features a distinctive blend of Spanish Colonial Revival and Mayan Revival styles, with ornate decorations and intricate carvings throughout the building.",
+                "llm_duration": 5256,
+                "rag_duration": -1
+            },
+            {
+                "model": "ollama_rag",
+                "answer": "According to the provided text, the architect of Aztec Hotel is Robert Stacy-Judd.",
+                "llm_duration": 59636,
+                "rag_duration": 8
+            }
+        ]
+    },
+    {
+        "question": "Which other buildings the firm who desinged the Buffalo City Hall had desinged?",
+        "answers": [
+            {
+                "model": "gpt-4",
+                "answer": "Dietel, Wade & Jones firm, the architects who designed the Buffalo City Hall, also designed other prominent buildings such as the Twentieth Century Club, Saturn Club, Acheson Hall at the University at Buffalo, and the Children\u2019s Hospital.",
+                "llm_duration": 3243,
+                "rag_duration": -1
+            },
+            {
+                "model": "ollama-llama3",
+                "answer": "The Buffalo City Hall was designed by the architectural firm of Esenwein & Associates. Here are some notable projects that this firm has designed:\n\n1. Albright-Knapp House (1973) - a historic house museum in Orchard Park, New York.\n2. St. Joseph's Hospital (1964) - a hospital in Cheektowaga, New York.\n3. Buffalo and Erie County Public Library (1964) - the main branch of the Buffalo Public Library system in downtown Buffalo.\n4. McKinley High School (1955-1956) - a high school in Buffalo, New York.\n5. The Richardson Olmsted Campus (1892) - a historic complex that was originally a hospital and is now home to the Buffalo and Erie County Botanical Gardens.\n\nThese are just a few examples of notable projects designed by Esenwein & Associates.",
+                "llm_duration": 22910,
+                "rag_duration": -1
+            },
+            {
+                "model": "groq-llama3-70b",
+                "answer": "The firm that designed the Buffalo City Hall is John Wade and George Dietel, a prominent architectural firm in Buffalo, New York. Some of their notable works include:\n\n1. Guaranty Building (1896) - a National Historic Landmark in Buffalo, New York, considered one of the finest examples of Sullivanian architecture.\n2. Buffalo Savings Bank (1901) - a historic bank building in Buffalo, New York, listed on the National Register of Historic Places.\n3. Ellicott Creek Power Plant (1926) - a historic power plant in Tonawanda, New York, listed on the National Register of Historic Places.\n4. University of Buffalo's Capen Hall (1931) - a historic academic building on the University at Buffalo's South Campus.\n5. The Rand Building (1929) - a historic office building in Buffalo, New York, listed on the National Register of Historic Places.\n6. The Electric Tower (1912) - a historic office building in Buffalo, New York, listed on the National Register of Historic Places.\n\nJohn Wade and George Dietel's firm was known for their work in the Neoclassical and Beaux-Arts styles, and many of their buildings are now listed on the National Register of Historic Places.",
+                "llm_duration": 2762,
+                "rag_duration": -1
+            },
+            {
+                "model": "ollama_rag",
+                "answer": "According to the text, Beuttler & Arnold, the firm that designed Buffalo City Hall, had also designed:\n\n* Masonic Temple\n* Methodist Hospital\n* YWCA\n* East and West Junior High Schools\n\nThese buildings are located in Sioux City, Iowa.",
+                "llm_duration": 52870,
+                "rag_duration": 8
+            }
+        ]
+    },
+    {
+        "question": "Describe the air conditioning system of the Buffalo City Hall in details.",
+        "answers": [
+            {
+                "model": "gpt-4",
+                "answer": "The information provided online about the Buffalo City Hall infrastructure doesn't contain detailed specifics on its air conditioning system. You may need to contact Buffalo City Hall directly for this information. Buffalo City Hall, a historical landmark completed in 1931, is Art Deco style so the original design likely did not initially include a modern air conditioning system. Any current air conditioning system would have had to been retrofitted into the existing structure. Nonetheless, Buffalo City Hall is one of the largest and tallest municipal buildings in the United States, so it might use a large-scale commercial HVAC (heating, ventilation, and air conditioning) system to ensure comfort and energy efficiency.",
+                "llm_duration": 8182,
+                "rag_duration": -1
+            },
+            {
+                "model": "ollama-llama3",
+                "answer": "I apologize, but I couldn't find any information on the air conditioning system of the Buffalo City Hall. However, I can provide some general information about air conditioning systems and some possible features that might be found in a large building like the Buffalo City Hall.\n\nAir Conditioning System:\n\nThe Buffalo City Hall is a large government building located in downtown Buffalo, New York. The building was completed in 1931 and has undergone several renovations and upgrades over the years to improve its infrastructure and efficiency. The air conditioning system in the building is likely a combination of various components and technologies designed to provide a comfortable indoor environment for occupants while also reducing energy consumption.\n\nSome possible features of the air conditioning system in the Buffalo City Hall might include:\n\n1. Centralized Air Handling Unit (AHU): The AHU is a large fan-powered unit that circulates conditioned air throughout the building. It would be located on one or more floors and would have ducts connected to various areas of the building.\n2. Cooling Tower: A cooling tower, also known as an evaporative cooler, is a device that uses evaporation to cool the air. It might be used in conjunction with the AHU to provide additional cooling capacity.\n3. Chilled Water System: The chilled water system involves circulating cold water through pipes and coils throughout the building to cool the air. This system would likely be connected to the AHU and other components of the air conditioning system.\n4. Heating, Ventilation, and Air Conditioning (HVAC) Systems: These systems are designed to provide both heating and cooling to various areas of the building. They might include features like fan coils, hydronic systems, or radiant floor heating.\n5. Controls and Automation: The air conditioning system would likely be controlled by a programmable logic controller (PLC) or other automation system that monitors temperature, humidity, and other environmental factors to ensure optimal comfort levels for occupants.\n6. Energy-Efficient Design: Modern air conditioning systems often incorporate energy-efficient designs, such as variable-speed fans, optimized airflow patterns, and energy-saving control strategies to minimize energy consumption.\n\nPlease note that this is just a hypothetical example of an air conditioning system, and the actual design and features used in the Buffalo City Hall might be different.",
+                "llm_duration": 57216,
+                "rag_duration": -1
+            },
+            {
+                "model": "groq-llama3-70b",
+                "answer": "I apologize, but I couldn't find specific information on the air conditioning system of the Buffalo City Hall in details. Buffalo City Hall is a historic building located in Buffalo, New York, and while I can provide general information on common air conditioning systems found in large buildings, I couldn't find specific information on the exact system used in Buffalo City Hall.\n\nHowever, I can provide some general information on the types of air conditioning systems that might be used in a building like Buffalo City Hall.\n\nLarge buildings like Buffalo City Hall typically have complex air conditioning systems that involve multiple components and systems working together to provide cooling and ventilation to the building. Here are some possible components that might be part of the air conditioning system:\n\n1. Chiller plant: This is the central component that cools the water or refrigerant that is circulated throughout the building. Chillers can be air-cooled or water-cooled, and they can use different types of refrigerants.\n2. Cooling towers: These are large structures that dissipate heat from the building's cooling system to the atmosphere. They are often located on the roof or in a mechanical room.\n3. Air handlers: These are large units that contain fans, coils, and filters that condition the air in the building. They are typically located in mechanical rooms or on rooftops.\n4. Ductwork: This refers to the network of pipes and ducts that distribute the cooled air throughout the building.\n5. VAV (Variable Air Volume) boxes: These are devices that regulate the airflow to different parts of the building, providing zone control and energy efficiency.\n6. Controls and sensors: These are the systems that monitor and control the air conditioning system, including temperature sensors, pressure sensors, and control panels.\n\nThe air conditioning system in a building like Buffalo City Hall might also include features such as:\n\n* Zoning: dividing the building into different zones, each with its own temperature control.\n* Economizers: using outside air for cooling when possible, to reduce energy consumption.\n* Heat recovery: recovering heat from one part of the building and using it to warm another part.\n* Dehumidification: controlling humidity levels in the building.\n\nAgain, I apologize for not being able to provide specific information on the air conditioning system of Buffalo City Hall. If you have any further questions or need more general information on air conditioning systems, I'll be happy to help.",
+                "llm_duration": 4705,
+                "rag_duration": -1
+            },
+            {
+                "model": "ollama_rag",
+                "answer": "According to the provided text, the air conditioning system of Buffalo City Hall is a non-powered system that takes advantage of strong prevailing winds from Lake Erie. Here's how it works:\n\n* Large vents were placed on the west side of the building to catch wind, which would then travel down ducts to beneath the basement.\n* The cooled air was then vented throughout the building.\n\nIn other words, the building uses natural ventilation and wind power to circulate air through its ducts, rather than relying on mechanical cooling systems. This system is described as being able to \"power air\" through the building using winds from Lake Erie.",
+                "llm_duration": 85642,
+                "rag_duration": 8
+            }
+        ]
+    },
+    {
+        "question": "When did Calvert Manor added to National Register of Historic Places?",
+        "answers": [
+            {
+                "model": "gpt-4",
+                "answer": "Calvert Manor was added to the National Register of Historic Places on September 22, 1975.",
+                "llm_duration": 2210,
+                "rag_duration": -1
+            },
+            {
+                "model": "ollama-llama3",
+                "answer": "According to the National Park Service's database, Calvert Manor was listed on the National Register of Historic Places (NRHP) on June 25, 1981. The reference number for this listing is NRHP #81000464.",
+                "llm_duration": 6652,
+                "rag_duration": -1
+            },
+            {
+                "model": "groq-llama3-70b",
+                "answer": "Calvert Manor, also known as the Calvert Mansion, was added to the National Register of Historic Places on July 24, 1974.",
+                "llm_duration": 5021,
+                "rag_duration": -1
+            },
+            {
+                "model": "ollama_rag",
+                "answer": "According to the provided text, there is no mention of Calvert Manor being added to the National Register of Historic Places. The text appears to be discussing various historic places and events in different locations, but Calvert Manor is not mentioned at all. Therefore, it cannot be determined when Calvert Manor was added to the National Register of Historic Places, as it is not mentioned in the provided text.",
+                "llm_duration": 56034,
+                "rag_duration": 8
+            }
+        ]
+    },
+    {
+        "question": "Where did Wizard of Oz first premiered?",
+        "answers": [
+            {
+                "model": "gpt-4",
+                "answer": "The Wizard of Oz first premiered at Grauman's Chinese Theatre in Hollywood, California on August 15, 1939.",
+                "llm_duration": 2325,
+                "rag_duration": -1
+            },
+            {
+                "model": "ollama-llama3",
+                "answer": "The classic movie!\n\nThe Wizard of Oz, starring Judy Garland as Dorothy Gale, had its world premiere on August 12, 1939, at Grauman's Chinese Theatre (now TCL Chinese Theatre) in Hollywood, California, USA.\n\nAfter the premiere, the film was released to the general public on August 25, 1939. And the rest, as they say, is history!",
+                "llm_duration": 10573,
+                "rag_duration": -1
+            },
+            {
+                "model": "groq-llama3-70b",
+                "answer": "The Wizard of Oz, the classic 1939 musical fantasy film starring Judy Garland, premiered on August 12, 1939, at Grauman's Chinese Theatre in Hollywood, California.\n\nHowever, it's worth noting that the film had a \"sneak preview\" screening on August 3, 1939, at the Orpheum Theatre in Kenosha, Wisconsin, before its official premiere in Hollywood. This sneak preview was a test screening to gauge audience reaction and make any final adjustments to the film before its wide release.\n\nSo, while Grauman's Chinese Theatre is often credited with hosting the \"world premiere\" of The Wizard of Oz, the film actually had a soft opening of sorts in Kenosha, Wisconsin, about a week earlier.",
+                "llm_duration": 2124,
+                "rag_duration": -1
+            },
+            {
+                "model": "ollama_rag",
+                "answer": "The Wizard of Oz did not first premiere in October 2010 or any other date mentioned in the provided text. The text does not mention the Wizard of Oz at all. It appears to be a collection of information about various topics such as TV ratings, environmental contamination, naval vessels, and concerts held at Roosevelt Stadium.",
+                "llm_duration": 68841,
+                "rag_duration": 8
+            }
+        ]
+    },
+    {
+        "question": "Is second tallest building in Cincinnati in art-deco style?",
+        "answers": [
+            {
+                "model": "gpt-4",
+                "answer": "No, the second tallest building in Cincinnati, the Great American Tower at Queen City Square, was designed with elements of neoclassical architecture, not art-deco.",
+                "llm_duration": 2669,
+                "rag_duration": -1
+            },
+            {
+                "model": "ollama-llama3",
+                "answer": "According to the City of Cincinnati's Building Information System, the second-tallest building in Cincinnati is the Carew Tower, which stands at 546 feet (166 meters) tall.\n\nAnd, yes! The Carew Tower is indeed an Art Deco-style building, completed in 1931. Its design features a mix of geometric shapes, metallic materials, and ornate details characteristic of the Art Deco style. It's considered one of Cincinnati's most iconic landmarks and a great example of this architectural style.\n\nWould you like to know more about the Carew Tower or other notable buildings in Cincinnati?",
+                "llm_duration": 15616,
+                "rag_duration": -1
+            },
+            {
+                "model": "groq-llama3-70b",
+                "answer": "You're likely thinking of the Carew Tower, which is indeed an Art Deco skyscraper in Cincinnati, Ohio. Completed in 1930, it was the tallest building in Cincinnati until 2010.\n\nThe Carew Tower is a prominent example of Art Deco architecture, featuring a distinctive zigzag motif, geometric patterns, and ornate metalwork. It was designed by the architectural firm of Tietig & Lee and is listed on the National Register of Historic Places.\n\nSo, to answer your question, yes, the second-tallest building in Cincinnati, the Carew Tower, is an excellent example of Art Deco style architecture.",
+                "llm_duration": 1433,
+                "rag_duration": -1
+            },
+            {
+                "model": "ollama_rag",
+                "answer": "According to the text, yes, the second tallest building in Cincinnati is in Art Deco style. The Carew Tower is a 49-story, 574-foot (175 m) Art Deco building completed in 1931 in downtown Cincinnati, Ohio, United States, overlooking the Ohio River waterfront.",
+                "llm_duration": 74470,
+                "rag_duration": 8
+            }
+        ]
+    },
+    {
+        "question": "List art-deco buildings in Gallup, New Mexico.",
+        "answers": [
+            {
+                "model": "gpt-4",
+                "answer": "I'm sorry, but there appears to be no specific information available on any art-deco buildings located in Gallup, New Mexico. It's possible that such buildings may exist but are not specifically listed or recognized as such online.",
+                "llm_duration": 3473,
+                "rag_duration": -1
+            },
+            {
+                "model": "ollama-llama3",
+                "answer": "Gallup, New Mexico has a rich cultural heritage and architectural history, particularly in the Art Deco style. Here are some notable Art Deco buildings in Gallup:\n\n1. The El Rancho Hotel (1936) - This historic hotel is considered one of the finest examples of Art Deco architecture in the Southwest. Designed by architect Mary Colter, it features a unique blend of Native American and Spanish Colonial styles.\n\n2. The Gallup National Bank Building (1924) - This building is an excellent example of early Art Deco design in Gallup. It features a striking facade with ornate metalwork and geometric patterns.\n\n3. The First National Bank of Gallup Building (1930) - This Art Deco building has been beautifully restored and now houses the Gallup Cultural Center.\n\n4. The KiMo Theatre (1922) - While not strictly an Art Deco building, the KiMo Theatre's unique design features a blend of Southwestern and Egyptian Revival styles, with ornate metalwork and geometric patterns reminiscent of Art Deco.\n\n5. The Curtis House Hotel (1930s) - This historic hotel features a mix of Spanish Colonial Revival and Art Deco architectural styles, with ornate tile work and decorative metalwork.\n\nPlease note that some of these buildings might be privately owned or under renovation, so it's best to check their current status before visiting.",
+                "llm_duration": 35101,
+                "rag_duration": -1
+            },
+            {
+                "model": "groq-llama3-70b",
+                "answer": "Gallup, New Mexico, has a rich history and architecture, with many buildings showcasing the Art Deco style. Here are some notable Art Deco buildings in Gallup:\n\n1. **El Rancho Hotel** (1000 E. 66 Ave): This iconic hotel, built in 1926, is a premier example of Art Deco architecture in Gallup. Its exterior features a striking fa\u00e7ade with geometric patterns, zigzags, and chevrons.\n2. **Gallup Cultural Center** (205 W. 66 Ave): This building, constructed in 1929, was originally the Gallup State Bank. Its Art Deco design elements include ornate metalwork, geometric patterns, and a striking clock tower.\n3. **Rex Hotel** (300 W. 66 Ave): Built in 1922, the Rex Hotel features a mix of Mission Revival and Art Deco styles. Its fa\u00e7ade boasts ornate terra cotta details, decorative metalwork, and a grand staircase.\n4. **Gallup Masonic Temple** (205 N. 3rd St): This 1928 building features a unique blend of Art Deco and Egyptian Revival styles, with ornate hieroglyphic-inspired carvings and geometric patterns.\n5. **Old Gallup Post Office** (201 W. 66 Ave): This 1931 building, now housing a retail space, retains its original Art Deco features, including a striking fa\u00e7ade with chevrons, zigzags, and geometric patterns.\n6. **Gallup Theatre** (219 W. 66 Ave): This 1920s movie palace features an ornate Art Deco design, with a grand entrance, ornate plasterwork, and decorative metalwork.\n\nThese are just a few examples of the many Art Deco buildings in Gallup, New Mexico. The city's rich history and architecture make it a fascinating destination for architecture enthusiasts and anyone interested in exploring the American Southwest.",
+                "llm_duration": 2564,
+                "rag_duration": -1
+            },
+            {
+                "model": "ollama_rag",
+                "answer": "Based on the provided text, there are no Art Deco buildings listed specifically in Gallup, New Mexico. However, the Chief Theater in Gallup, New Mexico is mentioned as an Art Deco-style theater built in 1920 and listed on the National Register of Historic Places in 1988.\n\nIf you're looking for Art Deco buildings in New Mexico, the text does mention a few buildings in Albuquerque, such as:\n\n1. Jones Motor Company (1939) - Streamline Moderne style\n2. Hendren Building (1946) - Streamline Moderne style\n\nThese buildings are not specifically listed as Art Deco, but they do share elements of the style. There is also mention of a Ford Building in San Diego, California, which serves as the home of the San Diego Air & Space Museum and was built by the Ford Motor Company for the California Pacific International Exposition in 1935-1936.\n\nThe Carlock Building in Lubbock, Texas is listed as an Art Deco building, but it's not located in New Mexico.",
+                "llm_duration": 73867,
+                "rag_duration": 8
             }
         ]
     }
