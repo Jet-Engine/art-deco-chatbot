@@ -1,6 +1,6 @@
 # Architecting Data: Building the Art-Deco Bot with RAG
 
-***This blogpost would take about 8 minutes to read***
+***Reading Time: ~10 minutes***
 
 ## Introduction to RAG
 
@@ -33,16 +33,16 @@ in both quality and time efficiency.
 #### Checking Matt Williams' RAG Project
 
 We based our RAG project on Matt Williams' 
-[https://github.com/technovangelist/videoprojects](Build RAG with Python)
+[Build RAG with Python](https://github.com/technovangelist/videoprojects)
 project. The code that is taken from here is highly modified and extended. Before reading this blogpost and
 understanding this project code we advise you to check 
-Matt's project and related [https://www.youtube.com/watch?v=GxLoMquHynY](Youtube video).
+Matt's project and related [YouTube video](https://www.youtube.com/watch?v=GxLoMquHynY).
 
 #### Ollama
 
-[https://ollama.com/](Ollama) is a program that facilitates running LLM models easily on local machines.
+[Ollama](https://ollama.com/) is a program that facilitates running LLM models easily on local machines.
 
-* Install Ollama on your local machine by following instructions on the [https://ollama.com/](Ollama website).
+* Install Ollama on your local machine by following instructions on the [Ollama website](https://ollama.com/).
 * Download the required models for the Art-Deco Bot project.
    * `ollama pull llama3` (LLM that would be used for RAG)
    * `ollama pull nomic-embed-text` (embedding model that would be used for RAG)
@@ -54,25 +54,26 @@ But having conversations with these models on your terminal screen is not a prer
 In this project we not only aim to write code to show how RAG can be done but also to compare and benchmark results
 of RAG with queries to different LLMs. Some of these LLMs could not be locally run like `GPT-4`. Some of them could 
 be run locally but compute-heavy thus we choose to run them on cloud such as running `Llama3:70b` on 
-[https://groq.com/](Groq). 
+[Groq](https://groq.com/). 
 
 In short, we need to query different LLMs that have different Python libraries. One of the problems LiteLLM strives 
 to solve is to provide a unified interface to query different LLMs. Although LiteLLM has many features, 
 we will use it in our project for this purpose that would make our code cleaner and more readable. 
 
-Checking [https://docs.litellm.ai/docs/](LiteLLM Python library) is not a prerequisite for this project, 
+Checking [LiteLLM Python library](https://docs.litellm.ai/docs/) is not a prerequisite for this project, 
 but it is recommended.
+
 
 #### API Keys
 
-Get your API keys from [https://platform.openai.com](OpenAI) and [https://console.groq.com](Groq) to use them 
+Get your API keys from [OpenAI](https://platform.openai.com) and [Groq](https://console.groq.com) to use them 
 in the project.
 Beware that you may be billed for using these services. `Groq API` could be used for free now 
 but `OpenAI API` is not free.
 
 #### Setting Up ChromaDB
 
-[https://www.trychroma.com](ChromaDB) is a vector database that enables efficient storage and retrieval 
+[ChromaDB](https://www.trychroma.com) is a vector database that enables efficient storage and retrieval 
 of document embeddings. To set up `ChromaDB`, follow these steps:
 
 1. Install ChromaDB by running:
@@ -265,6 +266,26 @@ text files that is around `10MB` in total. Indexing this document set with `Chro
 `Mac Mini M2 Pro`. For large document sets long indexing time may be a setback for RAG projects.
 * Creating embeddings for queries and time taken for similarity search on vector database is negligible compared to LLM inference time.
 
+## Modifying `chat.py` for Different LLMs
+
+If you would like to use different LLMs in the project for question querying, 
+you can modify following part of the `chat.py` file
+
+```python
+all_models = {
+        "gpt-4": "gpt-4",
+        "groq-llama3-8b": "groq/llama3-8b-8192",
+        "groq-llama3-70b": "groq/llama3-70b-8192",
+        "ollama-llama3": "ollama/llama3",
+        "ollama-llama3-70b": "ollama/llama3:70b",
+    }
+
+selected_models = ["gpt-4", "ollama-llama3", "groq-llama3-70b"]
+```
+
+Note that you need to learn how the LLMs you would like to integrate into project are named internally in LiteLLM.
+These names go to values of the dictionary `all_models`. You need to add the names of the models 
+(keys from all_models) you would like to integrate to selected_models list.
 
 ## Roadmap for the Art-Deco Bot
 
@@ -273,7 +294,7 @@ In future blog posts, we plan to delve deeper into the Art-Deco Bot project.
 * We would like to benchmark performance of different vector databases.
 * We would like to add more questions to our question set.
 * We would like to migrate the project on state-of-the-art vector database `PulseJet` 
-from [https://www.jetengine.tech](JetEngine) to make our bot more performant and scalable.
+from [JetEngine](https://www.jetengine.tech) to make our bot more performant and scalable.
 * We would like to explore different techniques and parameters for chunking and embedding similarity measurements.
 * We would like to expand this project into different domains and LLMs with minimal code change.
 * We would like to add GUI to the project to make it more user-friendly. 
