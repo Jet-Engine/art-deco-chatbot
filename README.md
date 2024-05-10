@@ -2,6 +2,13 @@
 
 ***Reading Time: ~10 minutes***
 
+Art-Deco Bot Github Repo: https://github.com/Jet-Engine/rag_art_deco
+
+This blogpost could be read from following links:
+
+1. [JetEngine's Blog Post](https://www.jetengine.tech/post/architecting-data-building-the-art-deco-bot-with-rag)
+2. [JetEngine's Medium Blog Post](https://medium.com/@jet-engine/architecting-data-building-the-art-deco-bot-with-rag-c8f49608d865)
+
 ## Introduction to RAG
 
 Large Language Models (LLMs) have significantly advanced, improving their ability to answer a broad array of 
