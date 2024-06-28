@@ -7,4 +7,4 @@ PyYAML==6.0.1
 Requests==2.31.0
 tqdm==4.66.2
 nltk
-litellm==1.36.2
+litellm==1.40.29
