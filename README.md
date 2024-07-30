@@ -370,7 +370,7 @@ In `indexing.py`, we use the client to create the collection and insert vectors:
 
 3. **Searching Similar Vectors**:
 
-In `ollama_rag.py`, we use the client to search for similar vectors during the RAG process:
+In `rag.py`, we use the client to search for similar vectors during the RAG process:
    ```python
    results = rag_client.search_similar_vectors(query_embed, limit=5)
    ```
