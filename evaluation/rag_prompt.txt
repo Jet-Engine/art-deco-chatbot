@@ -1,0 +1,5 @@
+Answer the given question using the following text as a resource. Not all the given text may be relevant to the asked question, try to answer the given question from relevant parts of the given text if there are any. PLEASE be concise and don't give any information that is not relevant to the asked question.
+
+Question: {query}
+
+Reference Text: {docs}

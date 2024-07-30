@@ -1,0 +1,43 @@
+#api_keys:
+openai_key: ""
+groq_key: ""
+
+#models:
+main_model: "llama3.1"
+embed_model: "nomic-embed-text"
+
+#vector_db:
+vector_db: "pulsejet"
+
+#pulsejet:
+pulsejet_location: "remote"
+pulsejet_collection_name: "art_deco"
+
+#paths:
+rag_files_path: "rag_files/"
+questions_file_path: "evaluation/questions.csv"
+evaluation_path: "evaluation/"
+rag_prompt_path: "evaluation/rag_prompt.txt"
+metrics_file_path: "evaluation/metrics.json"
+
+#embeddings:
+embeddings_file_path: "embeddings_data/all_embeddings_HSNW.h5"
+use_precalculated_embeddings: true
+
+#llm_models:
+all_models:
+  gpt-4o: "gpt-4o"
+  groq-llama3.1-8b: "groq/llama-3.1-8b-instant"
+  groq-llama3.1-70b: "groq/llama-3.1-70b-versatile"
+  ollama-llama3.1: "ollama/llama3.1"
+  ollama-llama3.1-70b: "ollama/llama3.1:70b"
+
+selected_models:
+  - "gpt-4o"
+  - "groq-llama3.1-70b"
+  - "ollama-llama3.1"
+
+#rag_parameters:
+sentences_per_chunk: 10
+chunk_overlap: 2
+file_extension: ".txt"

@@ -1,0 +1,7 @@
+__pycache__/
+indexing.log
+embeddings_data/
+evaluation/questions2.csv
+secrets.yaml
+.idea/
+rag_files/*

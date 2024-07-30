@@ -1,0 +1,8 @@
+{
+    "embedding_time": 1.0392258167266846,
+    "embedding_method": "loading",
+    "insertion_time": 4.7462897300720215,
+    "total_files": 2108,
+    "total_vectors": 8254,
+    "average_insertion_time_per_vector": 0.000575029044108556
+}
