@@ -8,7 +8,7 @@
 
 This blogpost can be read from the following links:
 
-1. [JetEngine's Blog Post](https://www.jetengine.tech/post/architecting-data-building-the-Art-Deco-bot-with-rag)
+1. [JetEngine's Blog Post](https://www.jetengine.tech/post/building-art-deco-rag-chatbot-using-pulsejet)
 2. [JetEngine's Medium Blog Post](https://medium.com/@jet-engine/building-art-deco-rag-chatbot-using-pulsejet-3ee0b8e2654f)
 
 ## Introduction to RAG
@@ -77,6 +77,10 @@ Check [PulseJet Docs](https://docs.pulsejet.jetengine.tech/introduction) for det
 Install all necessary dependencies by running:
 
 `pip install -r requirements.txt`
+
+>This project was developed using a `conda` environment with `Python 3.11`.
+
+As we have not tested the project in different environments, we recommend adhering to this configuration for optimal performance and compatibility.
 
 ### Configuration
 
@@ -175,11 +179,13 @@ different databases and see high performance of Pulsejet in benchmarks.
 - **file_extension**: Specifies the file type to be processed.
 
 Ensure you update these configuration files with your specific settings before running the project. Adjusting the RAG parameters can significantly impact the performance and accuracy of the RAG system. Experimentation with different values may be necessary to find the optimal configuration for your specific use case and document set.
+
 ## (OPTIONAL) Running the Art Deco Bot with `wiki-bot.py` 
 
 **This step is optional** since the content files of all scraped articles from Wikipedia are available in the https://huggingface.co/datasets/JetEngine/Art_Deco_USA_DS.
 
-You could download this dataset and copy all text files in this dataset into rag_files directory.
+You can download this dataset and copy all text files from it into the rag_files directory.
+If you plan to use pre-calculated embeddings, which will be explained in the next section, you don't actually need to download this dataset.
 
 There is no need to repeat the scraping process. You could skip reading rest of this section if you are not interested in data scraping process.
 
@@ -394,20 +400,31 @@ This implementation provides a clean, encapsulated interface for all PulseJet op
 
 ## Conclusion and Future Work
 
-The Art Deco Bot demonstrates the power of combining RAG techniques with modern LLMs for specialized knowledge retrieval.
-Performance of insertion and search operations becomes a bigger concern when the document base for a RAG system becomes larger.
-By learning how Pulsejet vector database can be integrated into a full-fledged RAG system one can greatly benefit from
-Pulsejet vector database for RAGs on large document bases.
+The Art Deco Chat Bot demonstrates how LLMs could be better utilized with RAG. 
+Our project offers a comprehensive exploration of RAG implementation, covering every step from data scraping 
+and document chunking to embedding creation and the integration of vector databases. 
 
-Our RAG responses could have been better. To make our Art Deco ChatBot more accurate, we are considering experimenting
-with different LLM, embedding models, chunking techniques.
+As the document base for a RAG system grows larger, the performance of insertion and search operations 
+becomes increasingly critical. By learning how to integrate the Pulsejet vector database into a 
+full-fledged RAG system, one can significantly benefit from its capabilities, particularly when dealing with 
+RAG applications on large document bases.
 
-We plan to expand this project by:
+# Art Deco Chat Bot Improvement Plan
+
+Our RAG responses could have been more accurate. To enhance our Art Deco ChatBot's performance, we are considering several experimental approaches:
+
+1. Evaluating different Large Language Models (LLMs)
+2. Testing various embedding models
+3. Exploring alternative chunking techniques
+
+We plan to expand this project through the following initiatives:
 
 - Benchmarking different vector databases
 - Exploring various chunking and embedding techniques
+- Experimenting with different index types supported by Pulsejet
+- Testing the asynchronous Pulsejet client and batch insertions
 - Expanding our RAG system to different domains
-- Adding a GUI for better accessibility
+- Implementing a Graphical User Interface (GUI) for improved accessibility
 
 We encourage you to experiment with the Art Deco Bot, modify its parameters, and adapt it to your own domains of interest.
 
