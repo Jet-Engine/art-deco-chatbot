@@ -400,7 +400,7 @@ This implementation provides a clean, encapsulated interface for all PulseJet op
 
 ## Conclusion and Future Work
 
-The Art Deco Chat Bot demonstrates how LLMs could be better utilized with RAG. 
+The Art Deco ChatBot demonstrates how LLMs could be better utilized with RAG. 
 Our project offers a comprehensive exploration of RAG implementation, covering every step from data scraping 
 and document chunking to embedding creation and the integration of vector databases. 
 
@@ -409,7 +409,7 @@ becomes increasingly critical. By learning how to integrate the Pulsejet vector 
 full-fledged RAG system, one can significantly benefit from its capabilities, particularly when dealing with 
 RAG applications on large document bases.
 
-# Art Deco Chat Bot Improvement Plan
+# Art Deco ChatBot Improvement Plan
 
 Our RAG responses could have been more accurate. To enhance our Art Deco ChatBot's performance, we are considering several experimental approaches:
 
