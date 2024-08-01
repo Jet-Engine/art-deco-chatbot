@@ -1,10 +1,10 @@
-# BUILDING ART DECO RAG CHATBOT USING PULSEJET
+# Building Art Deco RAG ChatBot Using Pulsejet
 
 ![art_deco_blog_post_cover_image](blog_files/art_deco_blog_post_cover.png)
 
 ***Reading Time: ~10 minutes***
 
-**Building Art Deco RAG ChatBot using PulseJet** Github Repo: https://github.com/Jet-Engine/rag_art_deco
+**Building Art Deco RAG ChatBot using PulseJet** Github Repo: https://github.com/Jet-Engine/art-deco-chatbot
 
 This blogpost can be read from the following links:
 
@@ -31,7 +31,7 @@ By designing the Art Deco ChatBot, we also aim to show how a complex RAG system 
 * How to index these documents in a vector database for efficient retrieval.
 * How to use JetEngine's performant vector database: Pulsejet
 * How to use LiteLLM to query different LLMs easily.
-* How to integrate a Rag system with Ollama
+* How to integrate a RAG system with Ollama
 * How to write a RAG system that would chunk documents, generate embeddings, and retrieve relevant chunks.
 * How to evaluate RAG output with LLM output
 
@@ -154,7 +154,7 @@ Here's a detailed explanation of each section:
 In future work we may integrate our RAG systems to different vector databases so that one could run our RAG systems with
 different databases and see high performance of Pulsejet in benchmarks.
 
-##### Pulsejet Configuration
+##### 🚀 Pulsejet Configuration
 - **pulsejet_location**: The location where PulseJet is running. Set to "remote" for a Docker container instance.
 - **pulsejet_collection_name**: The name of the collection within PulseJet where document embeddings are stored.
 
@@ -351,7 +351,7 @@ The `PulsejetRagClient` class is defined in `pulsejet_rag_client.py` and provide
    ```
    This method closes the connection to the PulseJet database when it's no longer needed.
 
-### Using PulsejetRagClient in the Project
+### 🚀 Using PulsejetRagClient in the Project
 
 The `PulsejetRagClient` is used throughout the project to interact with PulseJet. Here's how it's typically instantiated and used:
 
