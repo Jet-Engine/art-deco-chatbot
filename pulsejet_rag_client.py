@@ -1,4 +1,4 @@
-import pulsejet as pj
+import pulsejet_client as pj
 import logging
 from embeddings import get_vector_size
 
